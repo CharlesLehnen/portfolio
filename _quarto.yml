@@ -13,7 +13,6 @@ website:
         text: Images
       - href: documents/Charles Lehnen_CV_2023.pdf
         text: CV
-        download: true
   favicon: "images/favicon-32x32.png"
   page-footer:
     right: "*Website design and workflow adapted from [Albury Catalina](https://github.com/alburycatalina/alburycatalina.github.io).*"
