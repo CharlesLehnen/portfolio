@@ -134,21 +134,21 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-layout-panel" data-layout="[[1, 1], [1]]">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><a href="images/amblyrhynchus_cristatus.JPG" class="lightbox" data-description="Amblyrhynchus
+<p><a href="images/amblyrhynchus_cristatus.JPG" class="lightbox" data-gallery="my-gallery" data-description="Amblyrhynchus
 
-cristatus." data-gallery="my-gallery"><img src="images/amblyrhynchus_cristatus.JPG" class="img-fluid"></a></p>
+cristatus."><img src="images/amblyrhynchus_cristatus.JPG" class="img-fluid"></a></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><a href="images/conolophus_subcristalus.JPG" class="lightbox" data-description="Conolophus
+<p><a href="images/conolophus_subcristalus.JPG" class="lightbox" data-gallery="my-gallery" data-description="Conolophus
 
-subcristalus." data-gallery="my-gallery"><img src="images/conolophus_subcristalus.JPG" class="img-fluid"></a></p>
+subcristalus."><img src="images/conolophus_subcristalus.JPG" class="img-fluid"></a></p>
 </div>
 </div>
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="images/iguana_iguana.JPG" class="lightbox" data-description="Iguana
+<p><a href="images/iguana_iguana.JPG" class="lightbox" data-gallery="my-gallery" data-description="Iguana
 
-iguana." data-gallery="my-gallery"><img src="images/iguana_iguana.JPG" class="img-fluid"></a></p>
+iguana."><img src="images/iguana_iguana.JPG" class="img-fluid"></a></p>
 </div>
 </div>
 </div>
@@ -557,7 +557,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","selector":".lightbox","closeEffect":"zoom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
