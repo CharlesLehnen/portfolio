@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Charles Lehnen - Example Lightbox Document</title>
+<title>Charles Lehnen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -125,23 +125,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Example Lightbox Document</h1>
-</div>
 
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
 
 
 <div>
@@ -150,9 +134,9 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-layout-panel" data-layout="[[1, 1], [1]]">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><a href="images/amblyrhynchus_cristatus.png" class="lightbox" data-description="Amblyrhynchus
+<p><a href="images/amblyrhynchus_cristatus.JPG" class="lightbox" data-description="Amblyrhynchus
 
-cristatus." data-gallery="my-gallery"><img src="images/amblyrhynchus_cristatus.png" class="img-fluid"></a></p>
+cristatus." data-gallery="my-gallery"><img src="images/amblyrhynchus_cristatus.JPG" class="img-fluid"></a></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><a href="images/conolophus_subcristalus.JPG" class="lightbox" data-description="Conolophus
@@ -573,7 +557,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
