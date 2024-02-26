@@ -2,7 +2,16 @@
 title: "Projects"
 format: html
 editor: visual
+filters:
+  - lightbox
+lightbox: auto
 ---
+
+::: {layout="[[1, 1], [1]]"}
+![](images/project_map.png){group="my-project-gallery"
+description="Map of the systems I have worked with."}
+:::
+
 
 * Exploring the Natural History of Galapagos Diptera
 Self-directed research focusing on the invasive fly Philornis downsi and its control in the Galapagos. This work involves field research, data analysis using R, and collaboration with international scientists. Results contribute to understanding and mitigating the impact of invasive species on endemic Galapagos wildlife.
