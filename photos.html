@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Charles Lehnen -</title>
+<title>Charles Lehnen - Example Lightbox Document</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -99,7 +102,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./photos.html" aria-current="page"> 
-<span class="menu-text">photos.html</span></a>
+<span class="menu-text">Images</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./documents/Charles Lehnen_CV_2023.pdf"> 
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -118,26 +125,48 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Example Lightbox Document</h1>
+</div>
 
 
 
-<style>
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 15px;
-  margin: 0 auto; /* Center the grid */
-}
+<div class="quarto-title-meta">
 
-.image-grid img {
-  width: 100%;
-  height: 200px; /* Fixed height for all images */
-  object-fit: cover; /* This will crop the images to fill the box */
-  border-radius: 5px; /* Rounded corners */
-}
-</style>
-<div class="image-grid">
-<p><img src="images/amblyrhynchus_cristatus.JPG" alt="Amblyrhynchus cristatus"> <img src="images/conolophus_subcristalus.JPG" alt="Conolophus subcristalus"> <img src="images/iguana_iguana.JPG" alt="Iguana iguana"> <!-- Add more images as needed --></p>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[1, 1], [1]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><a href="images/amblyrhynchus_cristatus.png" class="lightbox" data-description="Amblyrhynchus
+
+cristatus." data-gallery="my-gallery"><img src="images/amblyrhynchus_cristatus.png" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><a href="images/conolophus_subcristalus.JPG" class="lightbox" data-description="Conolophus
+
+subcristalus." data-gallery="my-gallery"><img src="images/conolophus_subcristalus.JPG" class="img-fluid"></a></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<p><a href="images/iguana_iguana.JPG" class="lightbox" data-description="Iguana
+
+iguana." data-gallery="my-gallery"><img src="images/iguana_iguana.JPG" class="img-fluid"></a></p>
+</div>
+</div>
 </div>
 
 
@@ -544,6 +573,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 
