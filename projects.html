@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -141,6 +144,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[1, 1], [1]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><a href="images/project_map.png" class="lightbox" data-description="Map
+
+of
+
+the
+
+systems
+
+I
+
+have
+
+worked
+
+with." data-gallery="my-project-gallery"><img src="images/project_map.png" class="img-fluid"></a></p>
+</div>
+</div>
+</div>
 <ul>
 <li><p>Exploring the Natural History of Galapagos Diptera Self-directed research focusing on the invasive fly Philornis downsi and its control in the Galapagos. This work involves field research, data analysis using R, and collaboration with international scientists. Results contribute to understanding and mitigating the impact of invasive species on endemic Galapagos wildlife.</p></li>
 <li><p>3D Mapping of Bat Habitats in Abandoned Mines Utilized LiDAR and GIS technologies to create comprehensive 3D models of abandoned mines, assessing their importance as bat habitats. This project demonstrates the application of advanced geospatial technologies in wildlife conservation efforts.</p></li>
@@ -553,6 +580,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","loop":false});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 
