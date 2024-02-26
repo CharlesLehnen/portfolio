@@ -1,0 +1,14 @@
+---
+title: "Your Title"
+format: html
+include-in-header:
+  - styles.css
+---
+
+<div class="image-grid">
+  <img src="images/amblyrhynchus_cristatus.JPG" alt="Amblyrhynchus_cristatus">
+  <img src="images/conolophus_subcristalus.JPG" alt="Conolophus_subcristalus">
+  <img src="images/iguana_iguana.JPG" alt="Iguana_iguana">
+</div>
+
+

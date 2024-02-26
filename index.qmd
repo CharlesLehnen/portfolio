@@ -1,5 +1,6 @@
 ---
-title: "Charles Lehnen; PhD Candidate"
+title: "Charles Lehnen
+; PhD Candidate"
 image: images/profile.jpg
 about:
   template: trestles
@@ -10,7 +11,7 @@ about:
     - text: GitHub
       icon: github
       url: "https://github.com/CharlesLehnen"
-    - text: Google Shcolare
+    - text: Google Scholar
       icon: journal
       url: "https://scholar.google.com/citations?hl=en&user=Y5W_VVsAAAAJ"
     - text: Email
@@ -20,8 +21,6 @@ comments: false
 ---
 
 ::: {.column-page}
-
-## Bio
 
 I am an ecologist driven to unravel the complexities of community dynamics and the cascading trophic effects that shape our natural world. 
 My career has led me through a variety of roles, from leading a natural history study of Galapagos Diptera across five islands, assessing potential bat habitat in the man-made abandoned mineshafts of New Mexico, to conducting transects across the Nevada desert to track the population dynamics of Mojave Desert tortoises.
@@ -39,6 +38,7 @@ I am always looking to collaborate and share ideas, feel free to reach out to me
 
 ## Mentorship
 Science education and work is an essential aspect of my work. If I am not helping to empower the next generation of scientists, I feel that my job as a scientist is not complete. If you are seeking mentorship, help, or just advice, please contact me [via email](mailto:Lehnen@usc.edu).
+
 
 :::
 
