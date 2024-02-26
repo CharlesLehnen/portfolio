@@ -1,9 +1,11 @@
 ---
-title: "Your Title"
-format: html
-include-in-header:
-  - styles.css
+title: "Photos"
+format:
+  html:
+    includes:
+      in_header: styles.css
 ---
+
 
 <div class="image-grid">
   <img src="images/amblyrhynchus_cristatus.JPG" alt="Amblyrhynchus_cristatus">

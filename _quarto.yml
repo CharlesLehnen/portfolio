@@ -11,7 +11,7 @@ website:
       - photos.qmd
   favicon: "images/favicon-32x32.png"
   page-footer:
-    left: "Website design and wokflow adapted from [Albury Catalina](https://github.com/alburycatalina/alburycatalina.github.io)."
+    right: "*Website design and workflow adapted from [Albury Catalina](https://github.com/alburycatalina/alburycatalina.github.io).*"
     
 
 format:
