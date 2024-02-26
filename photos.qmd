@@ -1,27 +1,17 @@
 ---
-title: ""
+title: "Images"
 format: html
+filters:
+   - lightbox
+lightbox: auto
 ---
 
-<style>
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 15px;
-  margin: 0 auto; /* Center the grid */
-}
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
 
-.image-grid img {
-  width: 100%;
-  height: 200px; /* Fixed height for all images */
-  object-fit: cover; /* This will crop the images to fill the box */
-  border-radius: 5px; /* Rounded corners */
-}
-</style>
+![](images/amblyrhynchus_cristatus.JPG){group="my-gallery"}
 
-<div class="image-grid">
-  <img src="images/amblyrhynchus_cristatus.JPG" alt="Amblyrhynchus cristatus">
-  <img src="images/conolophus_subcristalus.JPG" alt="Conolophus subcristalus">
-  <img src="images/iguana_iguana.JPG" alt="Iguana iguana">
-  <!-- Add more images as needed -->
-</div>
+![](images/conolophus_subcristalus.JPG){group="my-gallery"}
+
+![](images/iguana_iguana.JPG){group="my-gallery"}
+
+:::
