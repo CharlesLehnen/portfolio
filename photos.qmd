@@ -1,17 +1,17 @@
 ---
-title: "Images"
-format: html
+title: Example Lightbox Document
 filters:
-   - lightbox
+  - lightbox
 lightbox: auto
 ---
 
-::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+::: {layout="[[1, 1], [1]]"}
+![](images/amblyrhynchus_cristatus){group="my-gallery"
+description="Amblyrhynchus cristatus."}
 
-![](images/amblyrhynchus_cristatus.JPG){group="my-gallery"}
+![](images/conolophus_subcristalus.JPG){group="my-gallery"
+description="Conolophus subcristalus."}
 
-![](images/conolophus_subcristalus.JPG){group="my-gallery"}
-
-![](images/iguana_iguana.JPG){group="my-gallery"}
-
+![](images/iguana_iguana.JPG){group="my-gallery"
+description="Iguana iguana."}
 :::
