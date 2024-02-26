@@ -1,44 +1,44 @@
 ---
-title: "C. Albury, MSc"
+title: "Charles Lehnen; PhD Candidate"
 image: images/profile.jpg
 about:
   template: trestles
   links:
     - text: LinkedIn
       icon: linkedin
-      url: "https://www.linkedin.com/in/alburycatalina"
+      url: "https://www.linkedin.com/in/charles-lehnen-699a7143"
     - text: GitHub
       icon: github
-      url: "https://github.com/alburycatalina"
-    - text: ORCID
-      icon: person-circle
-      url: "https://orcid.org/0000-0003-1061-9213"
-    - text: ResearchGate
+      url: "https://github.com/CharlesLehnen"
+    - text: Google Shcolare
       icon: journal
-      url: "https://www.researchgate.net/profile/Catalina-Albury"
+      url: "https://scholar.google.com/citations?hl=en&user=Y5W_VVsAAAAJ"
     - text: Email
       icon: envelope
-      url: "mailto:alburycatalina@dal.ca"
+      url: "mailto:Lehnen@usc.edu"
 comments: false
 ---
 
 ::: {.column-page}
 
 ## Bio
-I am a Bahamian researcher located in Vancouver, BC on unceeded xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh (Squamish), and səlilwətaɬ (Tsleil-Waututh) territory. I recently completed my MSc under the supervision of [Dr. Erin Bertrand](https://erinbertrand.wixsite.com/bertrandlab), which specialized in marine microbial ecophysiology. 
 
-I’m currently an analyst and citizen developer for Statistics Canada’s Innovation SURGE team. As part of the SURGE team, I help internal clients to transition to open source tools and workflows for data science using R, Python, and Git.
+I am an ecologist driven to unravel the complexities of community dynamics and the cascading trophic effects that shape our natural world. 
+My career has led me through a variety of roles, from leading a natural history study of Galapagos Diptera across five islands, assessing potential bat habitat in the man-made abandoned mineshafts of New Mexico, to conducting transects across the Nevada desert to track the population dynamics of Mojave Desert tortoises.
 
-When I’m not writing up a script, you can often find me cycling, cooking, or teaching. I’m passionate about getting young people excited about science and providing access to information, tools, and skills that spark scientific creativity.
+Along the way, I have honed my skills in the field working with cutting edge technologies including mutli-spectral drones, advanced GNSS systems, LiDAR, camera traps, and remote sensing. 
+In the classroom, through TAships I have focused on teaching quantitive skills including Python, R, occupancy models, and bayesian statistics. 
 
-**Interests:** Marine Ecology, Science Communication, Equity and Inclusivity, Climate Justice, Scientific Computing 
+Currently, as a third-year PhD candidate at the University of Southern California, I am leading a team to research the effects of rewilding Santa Fe Island in the Galapagos through the introduction of Española Giant Tortoises (*Chelonoidis hoodensis*).
+
+**Interests:** Biogeography, Trophic Ecology, Ecological Restoration, Science Communication, Quantative Ecology 
 
 
 ## Inquiries
-If you have questions about my work or are interested in collaborating, feel free to [contact me](mailto:alburycatalina@dal.ca). I am always interested in discussing data science workshop offerings. 
+I am always looking to collaborate and share ideas, feel free to reach out to me [via email](mailto:lehnen@usc.edu).
 
 ## Mentorship
-I am open to acting as a mentor to youth navigating a career in science when I have the capacity. If you are part of a group which has historically been excluded from STEM and are seeking a mentor, please [reach out via email](mailto:alburycatalina@dal.ca) with a short introduction about yourself. 
+Science education and work is an essential aspect of my work. If I am not helping to empower the next generation of scientists, I feel that my job as a scientist is not complete. If you are seeking mentorship, help, or just advice, please contact me [via email](mailto:Lehnen@usc.edu).
 
 :::
 
