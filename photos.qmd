@@ -1,12 +1,12 @@
 ---
-title: Example Lightbox Document
+title:
 filters:
   - lightbox
 lightbox: auto
 ---
 
 ::: {layout="[[1, 1], [1]]"}
-![](images/amblyrhynchus_cristatus){group="my-gallery"
+![](images/amblyrhynchus_cristatus.JPG){group="my-gallery"
 description="Amblyrhynchus cristatus."}
 
 ![](images/conolophus_subcristalus.JPG){group="my-gallery"
