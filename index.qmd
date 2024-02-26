@@ -1,5 +1,5 @@
 ---
-title: "Charles Lehnen; Doctoral Candidate"
+title: "Charles Lehnen"
 image: images/profile.jpg
 about:
   template: trestles
