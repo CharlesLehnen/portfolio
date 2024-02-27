@@ -4,7 +4,7 @@ filters:
 lightbox: auto
 ---
 
-::: {layout="[[1, 1], [1]]"}
+::: {layout="[[1, 1], [1, 1]]"}
 ![](images/watermark/amblyrhynchus_cristatus_watermarked.jpg){group="my-gallery"}
 
 ![](images/watermark/california_sea_lion_watermarked.jpg){group="my-gallery"}
