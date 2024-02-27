@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.charleslehnen.com/photos.html</loc>
-    <lastmod>2024-02-27T18:40:03.742Z</lastmod>
+    <lastmod>2024-02-27T19:33:08.734Z</lastmod>
   </url>
   <url>
-    <loc>https://www.charleslehnen.com/index.html</loc>
-    <lastmod>2024-02-27T18:40:03.742Z</lastmod>
+    <loc>https://www.charleslehnen.com/test.html</loc>
+    <lastmod>2024-02-27T19:33:08.734Z</lastmod>
   </url>
   <url>
     <loc>https://www.charleslehnen.com/code/watermark.html</loc>
-    <lastmod>2024-02-27T18:40:03.378Z</lastmod>
+    <lastmod>2024-02-27T19:33:08.378Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.charleslehnen.com/index.html</loc>
+    <lastmod>2024-02-27T19:33:08.734Z</lastmod>
   </url>
   <url>
     <loc>https://www.charleslehnen.com/projects.html</loc>
-    <lastmod>2024-02-27T18:40:03.742Z</lastmod>
+    <lastmod>2024-02-27T19:33:08.734Z</lastmod>
   </url>
 </urlset>
