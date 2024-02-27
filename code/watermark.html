@@ -243,91 +243,96 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="co"># Adjust the source folder path as needed</span></span>
 <span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>process_images(<span class="st">'../images/no_watermark'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="cell-1" class="cell" data-execution_count="5">
+<div id="cell-1" class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>image_folder <span class="op">=</span> <span class="st">'../images/watermark/'</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>images <span class="op">=</span> [f <span class="cf">for</span> f <span class="kw">in</span> os.listdir(image_folder) <span class="cf">if</span> f.lower().endswith(<span class="st">'.jpg'</span>)]</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>markdown_output <span class="op">=</span> <span class="st">"::: {layout=</span><span class="ch">\"</span><span class="st">[[1, 1], [1]]</span><span class="ch">\"</span><span class="st">}</span><span class="ch">\n</span><span class="st">"</span></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> image <span class="kw">in</span> images:</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    image_path <span class="op">=</span> os.path.join(image_folder, image)</span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Placeholder for the image description</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    description <span class="op">=</span> <span class="st">"Image description here."</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    markdown_output <span class="op">+=</span> <span class="ss">f"![](</span><span class="sc">{</span>image_path<span class="sc">}</span><span class="ss">)</span><span class="ch">{{</span><span class="ss">group=</span><span class="ch">\"</span><span class="ss">my-gallery</span><span class="ch">\"}}\n</span><span class="ss">"</span></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>markdown_output <span class="op">+=</span> <span class="st">":::"</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(markdown_output)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Directory where the images are stored</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>image_folder <span class="op">=</span> <span class="st">'../images/watermark/'</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Prefix for the path to use in the markdown output</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>output_path_prefix <span class="op">=</span> <span class="st">'images/watermark/'</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>images <span class="op">=</span> [f <span class="cf">for</span> f <span class="kw">in</span> os.listdir(image_folder) <span class="cf">if</span> f.lower().endswith(<span class="st">'.jpg'</span>)]</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>markdown_output <span class="op">=</span> <span class="st">"::: {layout=</span><span class="ch">\"</span><span class="st">[[1, 1], [1]]</span><span class="ch">\"</span><span class="st">}</span><span class="ch">\n</span><span class="st">"</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> image <span class="kw">in</span> images:</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Format the output path as desired</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    image_path <span class="op">=</span> os.path.join(output_path_prefix, image)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Placeholder for the image description</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    description <span class="op">=</span> <span class="st">"Image description here."</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    markdown_output <span class="op">+=</span> <span class="ss">f"![](</span><span class="sc">{</span>image_path<span class="sc">}</span><span class="ss">)</span><span class="ch">{{</span><span class="ss">group=</span><span class="ch">\"</span><span class="ss">my-gallery</span><span class="ch">\"}}\n</span><span class="ss">"</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>markdown_output <span class="op">+=</span> <span class="st">":::"</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(markdown_output)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>::: {layout="[[1, 1], [1]]"}
-![](../images/watermark/amblyrhynchus_cristatus_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/california_sea_lion_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/conolophus_subcristalus_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/iguana_iguana_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/IMG_0110_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/IMG_3895_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/IMG_5437_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/IMG_5444_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/IMG_5868_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/IMG_7778_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3232_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3254_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3255_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3258_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3263_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3312_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3330_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3349_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3354_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3358_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3369_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3378_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3414_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3433_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3444_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3451_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3458_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3459_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3467_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3476_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3480_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3482_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3484_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3485_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3490_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3494_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3495_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3503_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3506_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3521_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3542_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3544_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3552_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3558_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3586_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3590_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3594_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3608_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3666_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3675_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3685_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3690_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3692_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3726_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3737_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3759_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3823_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3879_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3886_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3889_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3938_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC3941_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC4090_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC4093_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC4166_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC4169_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC4197_watermarked.jpg){group="my-gallery"}
-![](../images/watermark/_DSC4231_watermarked.jpg){group="my-gallery"}
+![](images/watermark/amblyrhynchus_cristatus_watermarked.jpg){group="my-gallery"}
+![](images/watermark/california_sea_lion_watermarked.jpg){group="my-gallery"}
+![](images/watermark/conolophus_subcristalus_watermarked.jpg){group="my-gallery"}
+![](images/watermark/iguana_iguana_watermarked.jpg){group="my-gallery"}
+![](images/watermark/IMG_0110_watermarked.jpg){group="my-gallery"}
+![](images/watermark/IMG_3895_watermarked.jpg){group="my-gallery"}
+![](images/watermark/IMG_5437_watermarked.jpg){group="my-gallery"}
+![](images/watermark/IMG_5444_watermarked.jpg){group="my-gallery"}
+![](images/watermark/IMG_5868_watermarked.jpg){group="my-gallery"}
+![](images/watermark/IMG_7778_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3232_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3254_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3255_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3258_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3263_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3312_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3330_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3349_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3354_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3358_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3369_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3378_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3414_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3433_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3444_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3451_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3458_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3459_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3467_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3476_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3480_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3482_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3484_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3485_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3490_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3494_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3495_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3503_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3506_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3521_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3542_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3544_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3552_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3558_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3586_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3590_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3594_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3608_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3666_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3675_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3685_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3690_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3692_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3726_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3737_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3759_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3823_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3879_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3886_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3889_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3938_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC3941_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC4090_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC4093_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC4166_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC4169_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC4197_watermarked.jpg){group="my-gallery"}
+![](images/watermark/_DSC4231_watermarked.jpg){group="my-gallery"}
 :::</code></pre>
 </div>
 </div>
