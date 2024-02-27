@@ -1,0 +1,85 @@
+---
+filters:
+  - lightbox
+lightbox: auto
+---
+
+# Test 1
+
+::: {layout="[[1, 1], [1]]"}
+![](images/watermark/amblyrhynchus_cristatus_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/california_sea_lion_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/conolophus_subcristalus_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/iguana_iguana_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/IMG_0110_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/IMG_3895_watermarked.jpg){group="my-gallery"}
+:::
+
+# Test 2
+
+::: {layout="[[2, 1], [1]]"}
+![](images/watermark/amblyrhynchus_cristatus_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/california_sea_lion_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/conolophus_subcristalus_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/iguana_iguana_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/IMG_0110_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/IMG_3895_watermarked.jpg){group="my-gallery"}
+:::
+
+# Test 3
+
+::: {layout="[[1, 2], [1]]"}
+![](images/watermark/amblyrhynchus_cristatus_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/california_sea_lion_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/conolophus_subcristalus_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/iguana_iguana_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/IMG_0110_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/IMG_3895_watermarked.jpg){group="my-gallery"}
+:::
+
+# Test 4
+
+::: {layout="[[1, 1], [2]]"}
+![](images/watermark/amblyrhynchus_cristatus_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/california_sea_lion_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/conolophus_subcristalus_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/iguana_iguana_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/IMG_0110_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/IMG_3895_watermarked.jpg){group="my-gallery"}
+:::
+
+# Test 5
+
+::: {layout="[[2], [2]]"}
+![](images/watermark/amblyrhynchus_cristatus_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/california_sea_lion_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/conolophus_subcristalus_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/iguana_iguana_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/IMG_0110_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/IMG_3895_watermarked.jpg){group="my-gallery"}
+:::
