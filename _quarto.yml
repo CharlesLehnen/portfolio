@@ -16,6 +16,7 @@ website:
   favicon: "images/favicon-32x32.png"
   page-footer:
     right: "*Website design and workflow adapted from [Albury Catalina](https://github.com/alburycatalina/alburycatalina.github.io).*"
+  google-analytics: "G-TKLYP8KJK7"
     
 
 format:
