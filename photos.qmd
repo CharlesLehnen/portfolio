@@ -4,8 +4,10 @@ filters:
 lightbox: auto
 ---
 
-::: {layout="[[1, 1], [1, 1]]"}
+::: {layout="[[1, 1], [1]]"}
 ![](images/watermark/amblyrhynchus_cristatus_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/california_sea_lion.JPG_watermarked_watermarked.jpg){group="my-gallery"}
 
 ![](images/watermark/california_sea_lion_watermarked.jpg){group="my-gallery"}
 
@@ -21,21 +23,37 @@ lightbox: auto
 
 ![](images/watermark/IMG_5444_watermarked.jpg){group="my-gallery"}
 
+![](images/watermark/IMG_5670_watermarked.jpg){group="my-gallery"}
+
 ![](images/watermark/IMG_5868_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/IMG_5902_watermarked.jpg){group="my-gallery"}
 
 ![](images/watermark/IMG_7778_watermarked.jpg){group="my-gallery"}
 
+![](images/watermark/_DSC3015_watermarked.jpg){group="my-gallery"}
+
 ![](images/watermark/_DSC3232_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/_DSC3246_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/_DSC3247_watermarked.jpg){group="my-gallery"}
 
 ![](images/watermark/_DSC3254_watermarked.jpg){group="my-gallery"}
 
 ![](images/watermark/_DSC3255_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/_DSC3257_watermarked.jpg){group="my-gallery"}
 
 ![](images/watermark/_DSC3258_watermarked.jpg){group="my-gallery"}
 
 ![](images/watermark/_DSC3263_watermarked.jpg){group="my-gallery"}
 
 ![](images/watermark/_DSC3312_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/_DSC3322_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/_DSC3324_watermarked.jpg){group="my-gallery"}
 
 ![](images/watermark/_DSC3330_watermarked.jpg){group="my-gallery"}
 
@@ -46,6 +64,8 @@ lightbox: auto
 ![](images/watermark/_DSC3358_watermarked.jpg){group="my-gallery"}
 
 ![](images/watermark/_DSC3369_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/_DSC3371_watermarked.jpg){group="my-gallery"}
 
 ![](images/watermark/_DSC3378_watermarked.jpg){group="my-gallery"}
 
@@ -85,6 +105,10 @@ lightbox: auto
 
 ![](images/watermark/_DSC3521_watermarked.jpg){group="my-gallery"}
 
+![](images/watermark/_DSC3525_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/_DSC3528_watermarked.jpg){group="my-gallery"}
+
 ![](images/watermark/_DSC3542_watermarked.jpg){group="my-gallery"}
 
 ![](images/watermark/_DSC3544_watermarked.jpg){group="my-gallery"}
@@ -94,6 +118,8 @@ lightbox: auto
 ![](images/watermark/_DSC3558_watermarked.jpg){group="my-gallery"}
 
 ![](images/watermark/_DSC3586_watermarked.jpg){group="my-gallery"}
+
+![](images/watermark/_DSC3587_watermarked.jpg){group="my-gallery"}
 
 ![](images/watermark/_DSC3590_watermarked.jpg){group="my-gallery"}
 
