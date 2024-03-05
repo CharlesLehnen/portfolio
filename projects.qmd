@@ -9,17 +9,26 @@ lightbox: auto
 
 ![](images/project_map.png){fig-alt="Map of the systems I have worked with." fig-align="center" width=50%}
 
-* Exploring the Natural History of Galapagos Diptera
-Self-directed research focusing on the invasive fly Philornis downsi and its control in the Galapagos. This work involves field research, data analysis using R, and collaboration with international scientists. Results contribute to understanding and mitigating the impact of invasive species on endemic Galapagos wildlife.
+* Natural History of Galapagos Diptera
+I led a 4-year natural history study across 5 of the Galapagos islands. This project was a key aspect to the goals of the international Philornis Working Group which focuses on the devastatingly invasive fly *Philornis downsi*. Understanding the ecology of Galapagos Diptera was essential in estimating impacts of *P. downsi* control prospects and acquiring endemic, dipteran pupae for non-target biocontrol testing. Prior to my study, the community ecology and rearing substrates of Galapagos Diptera had been virtually unknown. Presently, I am preparing the associated publication as first author.
 
-* 3D Mapping of Bat Habitats in Abandoned Mines
-Utilized LiDAR and GIS technologies to create comprehensive 3D models of abandoned mines, assessing their importance as bat habitats. This project demonstrates the application of advanced geospatial technologies in wildlife conservation efforts.
+* Assesing Abandoned Mines as a Protected Resource
+We evaluated the biological relevance of abandoned New Mexican mines as bat roosting, flyover sites, and/or hibernacula. This also included nose swabs for *Pseudogymnoascus destructans* and guano collection for molecular analysis. Sites were reached through technical 4x4 off-roading, backcountry hiking, and advanced vertical ropework. We used technology including LiDAR, satellite imagery, ArcGIS, GPS, and orienteering to collect precise geospatial data. As an auxiliary aspect, we conducted pre-development avian surveys at mine closure sites utilizing bird identification and nest surveying skills.
 
-* Ecology and Biodiversity Course Development
-Creation of a new USC course "BISC 499: Ecology and Biodiversity," including developing the syllabus, lab handouts, and assignments using R and Quarto. This contribution significantly enhances the educational resources for teaching quantitative ecology.
+* USFWS Population Monitoring of Mojave Desert Tortoises
+Along line-distance sampling transects, I collected georeferenced biometric data on IUCN vulnerable Mojave desert tortoise (*Gopherus agassizii*) populations across Nevada following strict sterile field technique. Metrics included body condition scores, nasal/discharge scores to screen for Mycoplasma infection, and morphological measurements. All protocols were specifically designed to avoid complications including hypothermia, loss of fluids, and transmission of disease/parasites between tortoises.
 
-* Mojave Desert Tortoise Population Study
-Conducted a systematic survey of the Mojave Desert Tortoise, combining line-distance sampling with health assessments. This project provides crucial data for the conservation and management of this vulnerable species across its range in the American Southwest.
+* Charles Darwin Foundation GeoPortal Development
+I helped develop a novel GeoPortal which distributes Galapagos geographical data to the public and Charles Darwin Foundation (CDF) collaborating scientists. I navigated the CDF's local, WCS, WFS, WMS distributions as well as their SQL and GeoServer-based databases to gather GIS data. I used QGIS and ArcGIS to analyze this data and then created associated, robust metadata. I helped to improve the GeoPortal’s user interface by building a lightweight, intuitive directory and Wiki using HTML/CSS. The current version of the web application can be viewed at geodata-fcdgps.opendata.arcgis.com/
 
-* Galapagos National Park Volunteer Efforts
-Engaged in multiple conservation tasks including tortoise husbandry, invasive plant eradication, and educational outreach. These efforts are part of a larger commitment to preserving the unique biodiversity of the Galapagos Islands through hands-on conservation and community engagement.
+* Galapagos National Park Internship
+As a Galapagos National Park intern, I aided in the rearing and husbandry of 180 semi-captive, IUCN endangered *Chelonoidis chathamensis* tortoises. Tasks consisted of the collection of eggs, monitoring of incubation, care of neonates, preparations of cohort for repatriation, four separate monitoring campaigns, and organization of volunteers. Additionally, I re-invigorated San Cristobal Island’s endemic plant breeding program. Through avid seed and seedling collection, propagation, and nursery care I was able to produce several hundred plants from 20 endemic or native species that were distributed to park and community member land.
+
+* Regulatory T-cell Research 
+Through the University of Minnesota Medical School, I explored the potential of human regulatory T cell-based cellular therapy for Graft-Versus-Host Disease by independently designing and optimizing a novel lentiviral transduction program. The current lab group has continued to build upon my initial protocols. In my role, I also served as the manager of the experimental mouse breeding colony, supervised  four interns, and was a co-advisor to two undergraduate directed research projects. My work culminated in a publication in the journal Transplantation as co-author and a research symposium poster at the Masonic Cancer Center Research Symposium.
+
+* Urban Forestry of Elm Trees
+I aided in the research of Dutch elm disease, nursery techniques, and forestry in harsh, urban field sites. I was trained in plant propagation, agricultural, and pruning techniques in the care of cuttings, seedlings, young trees, as well as nursery stock. I collected seed and took geospatial correlated data at numerous field sites around the state in close collaboration with Saint Paul Parks and Recreation foresters. I personally managed 8 acres of field plots and completed a self-directed research project on *Arachis hypogaea* growing conditions.
+
+* Human Physiology Undergraduate Teaching Assistant
+As a teaching assistant (TA), I worked in a team with three professors and fellow TAs to deliver a high quality undergraduate human physiology curriculum. I met one-on-one with Dr. Lisa Anderson weekly to review lesson plans and educational goals. I corrected coursework, answered questions for students, and was in charge of leading lab practicals. Additionally, I self-implemented and guided lecture-style study sessions for students before large exams.
