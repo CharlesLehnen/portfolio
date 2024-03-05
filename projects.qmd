@@ -9,6 +9,11 @@ lightbox: auto
 
 ![](images/project_map.png){fig-alt="Map of the systems I have worked with." fig-align="center" width=50%}
 
+# Research Projects
+
+* Tortoise Terraforming: Will the Introduction of Española Galapagos Giant Tortoises Restore Santa Fe Island’s Ecosystem?
+In collaboration with [Galapagos Conservancy](https://www.galapagos.org/) and [Iniativa Galápagos](https://www.galapagos.org/projects/iniciativa-galapagos/), my doctoral research investigates the ecological impacts of introducing Española Giant Tortoises (*Chelonoidis hoodensis*) to Santa Fe Island, where tortoises have been extinct since the mid-1800s. This project, initiated with a succesful pilot season in the summer of 2023, employs modern ecological techniques including multi-spectral drone imagery, isotope analysis from tortoise keratin, and camera traps to monitor feeding behaviors. The aim is not only to assess the restoration of Santa Fe but also to provide a model for similar conservation efforts globally, offering insights into how other species can be used to revive ecosystems. My work proudly adheres to stringent Galapagos National Park regulations to ensure the protection of wildlife and research integrity.
+
 * Natural History of Galapagos Diptera
 I led a 4-year natural history study across 5 of the Galapagos islands. This project was a key aspect to the goals of the international Philornis Working Group which focuses on the devastatingly invasive fly *Philornis downsi*. Understanding the ecology of Galapagos Diptera was essential in estimating impacts of *P. downsi* control prospects and acquiring endemic, dipteran pupae for non-target biocontrol testing. Prior to my study, the community ecology and rearing substrates of Galapagos Diptera had been virtually unknown. Presently, I am preparing the associated publication as first author.
 
@@ -30,5 +35,17 @@ Through the University of Minnesota Medical School, I explored the potential of 
 * Urban Forestry of Elm Trees
 I aided in the research of Dutch elm disease, nursery techniques, and forestry in harsh, urban field sites. I was trained in plant propagation, agricultural, and pruning techniques in the care of cuttings, seedlings, young trees, as well as nursery stock. I collected seed and took geospatial correlated data at numerous field sites around the state in close collaboration with Saint Paul Parks and Recreation foresters. I personally managed 8 acres of field plots and completed a self-directed research project on *Arachis hypogaea* growing conditions.
 
-* Human Physiology Undergraduate Teaching Assistant
-As a teaching assistant (TA), I worked in a team with three professors and fellow TAs to deliver a high quality undergraduate human physiology curriculum. I met one-on-one with Dr. Lisa Anderson weekly to review lesson plans and educational goals. I corrected coursework, answered questions for students, and was in charge of leading lab practicals. Additionally, I self-implemented and guided lecture-style study sessions for students before large exams.
+
+# Science Education Projects
+
+* JEP STEM Fellowship
+Leading the WonderKids virtual afterschool program, I designed and implemented a semester long curriculum that broadens K-5 students' understanding of STEM, emphasizing diversity in science through guest speaker sessions and virtual tours of scientists' workspaces. By showcasing scientists from various backgrounds and subfields, the program aims to inspire students to envision themselves in scientific roles while engaging students with hands-on science experiments. My global network enabled me to introduce students to a wide range of scientific careers, reinforcing the program's commitment to diversity and inclusion in science education.
+
+* Ecology and Biodiversity Teaching Assistantship
+Contributing to developing USC's brand new "Ecology and Biodiversity" course for undergraduate juniors and seniors, I collaborated with course lecturers to design a new syllabus and created all lab materials/assignments using R and Quarto. These resources, which can be found at https://charleslehnen.github.io/BISC_404_Ecology_and_Biodiversity/, are designed to teach students programming skills for quantitative ecology research, offering them hands-on experience in analyzing ecological data.
+
+* Anthropology and General Biology Teaching Assistantship
+Serving as a teaching assistant for the uniquely structured general biology course "The Human Animal," I prepared lab lectures and organized materials, notably an extensive library of fossil casts. I introduced and developed new lab units, such as a segment on brain anatomy and functional morphology using an Anatomage Table, providing students with a hands-on approach to understanding the complex topics. This course’s unique angle on biology, through the lens of tying back every concept to humans, was particularly engaging for students from across majors taking a general biology course.
+
+* Human Physiology Undergraduate Teaching Assistantship
+As a teaching assistant, I worked in a team with three professors and fellow TAs to deliver a high quality undergraduate human physiology curriculum. We met one-on-one with weekly to review lesson plans and educational goals. I corrected coursework, answered questions for students, and was in charge of leading lab practicals. Additionally, I self-implemented and guided lecture-style study sessions for students before large exams.
