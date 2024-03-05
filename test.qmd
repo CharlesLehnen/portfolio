@@ -1,15 +1,29 @@
 ---
-filters:
-  - lightbox
-lightbox: auto
-format:
-  html:
-    includes:
-      in_header: leaflet-header.html
+title: "Interactive Map with Shiny"
+format: html
+runtime: shiny
 ---
 
-<div id="mapid" style="width: 600px; height: 400px;"></div>
+```{r}
+library(shiny)
+library(leaflet)
 
+ui <- fluidPage(
+  leafletOutput("map")
+)
+
+server <- function(input, output, session) {
+  output$map <- renderLeaflet({
+    leaflet() %>%
+      addTiles() %>%  # Add default OpenStreetMap map tiles
+      setView(lng = -0.09, lat = 51.505, zoom = 13) %>%
+      addMarkers(lng = -0.09, lat = 51.5, popup = "A simple project description here.") %>%
+      addMarkers(lng = -0.1, lat = 51.515, popup = "Another project description here.")
+  })
+}
+
+shinyApp(ui, server)
+```
 
 # Test 1
 
