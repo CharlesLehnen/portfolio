@@ -1,3 +1,9 @@
+---
+title: "Project Map"
+format: html
+server: shiny
+---
+
 ```{r setup, include=FALSE}
 
 library(shiny)
@@ -24,7 +30,7 @@ server <- function(input, output, session) {
   COTOIcon <- makeIcon(
     iconUrl = "../images/icons/COTO.png",
     iconWidth = 50, iconHeight = 50,
-    iconAnchorX = 25, iconAnchorY = 50  # Center the anchor point horizontally, anchor at the bottom vertically
+    iconAnchorX = 25, iconAnchorY = 50
   )
   
   BlandIcon <- makeIcon(
@@ -53,7 +59,7 @@ server <- function(input, output, session) {
       addMarkers(
         lng = -94.685898, 
         lat = 46.729553, 
-        popup = "I independently monitored nesting sites of the endangered Blanding's Turtles at Murphy-Hanrehan Park, assisting with road crossings, health observations, photographic documentation, and egg translocation relocation since Blanding's exhibit natal homing", 
+        popup = "I independently monitored nesting sites of the endangered Blanding's Turtles at Murphy-Hanrehan Park, assisting with road crossings, health observations, photographic documentation, and egg translocation relocation since Blanding's exhibit natal homing.", 
         icon = BlandIcon
       ) %>%
       
