@@ -47,12 +47,6 @@ server <- function(input, output, session) {
     iconAnchorX = 25, iconAnchorY = 50
   )
   
-  JEPIcon <- makeIcon(
-    iconUrl = "https://raw.githubusercontent.com/CharlesLehnen/portfolio/main/images/icons/JEP.png",
-    iconWidth = 50, iconHeight = 50,
-    iconAnchorX = 25, iconAnchorY = 50
-  )
-  
   mojaveIcon <- makeIcon(
     iconUrl = "https://raw.githubusercontent.com/CharlesLehnen/portfolio/main/images/icons/mojave.png",
     iconWidth = 50, iconHeight = 50,
@@ -60,7 +54,7 @@ server <- function(input, output, session) {
   )
   output$map <- renderLeaflet({
     leaflet() %>%
-      addProviderTiles("Esri.NatGeoWorldMap") %>%
+      addProviderTiles("CartoDB.DarkMatterNoLabels") %>%
       addMarkers(
         lng = -107.303802, 
         lat = 33.12007, 
@@ -101,13 +95,6 @@ server <- function(input, output, session) {
         lat = 48.112037, 
         popup = "I assisted in research on Dutch elm disease, nursery techniques, and urban forestry, gaining expertise in plant propagation and tree care, from seed to adult tree. Collaborating closely with Saint Paul Parks and Recreation foresters, I collected seeds and collected data across study sites. I managed 8 acres of nursery and experimental plots.", 
         icon = elmIcon
-      ) %>%
-      
-      addMarkers(
-        lng = -116.4529, 
-        lat = 33.978195, 
-        popup = "I led the WonderKids virtual afterschool program, creating and implementing a semester long STEM curriculum for K-5 students that highlights diversity in science with guest speakers and virtual lab tours. This approach aimed to inspire students through hands-on experiments and exposure to a variety of specific scientific careers, emphasizing inclusivity in science education. <a href='https://www.youtube.com/playlist?list=PLU0ue4Xv_K1udN1Nd_DUlmonps7cAh9EG' target='_blank'>Watch my lessons Here</a>", 
-        icon = JEPIcon
       ) %>%
       
       addMarkers(
