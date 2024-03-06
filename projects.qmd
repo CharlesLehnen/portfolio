@@ -57,7 +57,7 @@ format: html
 
 
 - Ecology and Biodiversity Teaching Assistantship\
-  Contributing to developing USC's brand new "Ecology and Biodiversity" course for undergraduate juniors and seniors, I collaborated with course lecturers to design a new syllabus and created all lab materials/assignments using R and Quarto. These resources, which can be found [online](https://charleslehnen.github.io/BISC_404_Ecology_and_Biodiversity/), are designed to teach students programming skills for quantitative ecology research, offering them hands-on experience in analyzing ecological data.
+  Contributing to developing USC's brand new "Ecology and Biodiversity" course for undergraduate juniors and seniors, I collaborated with course lecturers to design a new syllabus and created all lab materials/assignments using R and Quarto. These resources I developed, which can be found [online](https://charleslehnen.github.io/BISC_404_Ecology_and_Biodiversity/), are designed to teach students programming skills for quantitative ecology research, offering them hands-on experience in analyzing ecological data.
 
 
 - Anthropology and General Biology Teaching Assistantship\
@@ -66,3 +66,15 @@ format: html
 
 - Human Physiology Undergraduate Teaching Assistantship\
   As a teaching assistant, I worked in a team with three professors and fellow TAs to deliver a high quality undergraduate human physiology curriculum. We met one-on-one with weekly to review lesson plans and educational goals. I corrected coursework, answered questions for students, and was in charge of leading lab practicals. Additionally, I self-implemented and guided lecture-style study sessions for students before large exams.
+
+# [Github Projects](https://github.com/CharlesLehnen)
+
+- [Program that allows you to make DJI Pilot 2 compatabile drone flight transects in QGIS](https://github.com/CharlesLehnen/QGIS_KML_to_DJI_Pilot_2)
+
+- [Machine learning workflow to generate huge datasets of training data from YouTube trail cameras](https://github.com/CharlesLehnen/YouTube_Trailcamera_Livestream_Classification_Tool)
+
+- [Official code and data respository](https://github.com/EcolDataSciUSC/BioSCAN_2023) for our 2024 paper [Drivers of arthropod biodiversity in an urban ecosystem](https://www.nature.com/articles/s41598-023-50675-3)
+
+- [My suggested template for a well organized repo](https://github.com/CharlesLehnen/standard_repository_template)
+
+- [This website, which is edited in Quarto, hosted for free via Github Pages, and rendered to HTML automatically via Github deployment](https://github.com/CharlesLehnen/portfolio)
