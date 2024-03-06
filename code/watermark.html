@@ -475,7 +475,7 @@ gtag('config', 'G-TKLYP8KJK7', { 'anonymize_ip': true});
 :::</code></pre>
 </div>
 </div>
-<div id="cell-2" class="cell" data-execution_count="28">
+<div id="cell-2" class="cell" data-execution_count="35">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -561,28 +561,93 @@ GalapTortIcon &lt;- makeIcon(
   iconWidth = 50, iconHeight = 50,
   iconAnchorX = 25, iconAnchorY = 50
 )
+
+flyIcon &lt;- makeIcon(
+  iconUrl = "https://raw.githubusercontent.com/CharlesLehnen/portfolio/main/images/icons/fly.png",
+  iconWidth = 50, iconHeight = 50,
+  iconAnchorX = 25, iconAnchorY = 50
+)
+
+arthropodsIcon &lt;- makeIcon(
+  iconUrl = "https://raw.githubusercontent.com/CharlesLehnen/portfolio/main/images/icons/arthropods.png",
+  iconWidth = 50, iconHeight = 50,
+  iconAnchorX = 25, iconAnchorY = 50
+)
+
+elmIcon &lt;- makeIcon(
+  iconUrl = "https://raw.githubusercontent.com/CharlesLehnen/portfolio/main/images/icons/elm.png",
+  iconWidth = 50, iconHeight = 50,
+  iconAnchorX = 25, iconAnchorY = 50
+)
+
+JEPIcon &lt;- makeIcon(
+  iconUrl = "https://raw.githubusercontent.com/CharlesLehnen/portfolio/main/images/icons/JEP.png",
+  iconWidth = 50, iconHeight = 50,
+  iconAnchorX = 25, iconAnchorY = 50
+)
+
+mojaveIcon &lt;- makeIcon(
+  iconUrl = "https://raw.githubusercontent.com/CharlesLehnen/portfolio/main/images/icons/mojave.png",
+  iconWidth = 50, iconHeight = 50,
+  iconAnchorX = 25, iconAnchorY = 50
+)
   output$map &lt;- renderLeaflet({
     leaflet() %&gt;%
       addProviderTiles("Esri.NatGeoWorldMap") %&gt;%
       addMarkers(
-        lng = -105.870087, 
-        lat = 34.519939, 
+        lng = -107.303802, 
+        lat = 33.12007, 
         popup = "We evaluated the ecological significance of abandoned mines in New Mexico as habitats for bats to recommend them for closure or federal protection. This included the collection of habitat, LiDAR imagery, and disease metrics. Field techniques involved off-roading, hiking, and ropework, with additional avian surveys at mine closures.", 
         icon = COTOIcon
       ) %&gt;%
 
       addMarkers(
-        lng = -94.685898, 
-        lat = 46.729553, 
+        lng = -92.161371, 
+        lat = 43.880424, 
         popup = "I independently monitored nesting sites of the endangered Blanding's Turtles at Murphy-Hanrehan Park, assisting with road crossings, health observations, photographic documentation, and egg translocation relocation since Blanding's exhibit natal homing", 
         icon = blandingsIcon
       ) %&gt;%
 
       addMarkers(
-        lng = -90.061142, 
-        lat = -0.809116, 
+        lng = &nbsp;-95.810074, 
+        lat = -0.344018, 
         popup = "My doctoral research, in collaboration with the Galapagos Conservancy and Iniciativa Galápagos, explores the impact of introducing Española Giant Tortoises to Santa Fe Island to restore its ecosystem. Using drone imagery, isotope analysis, and camera traps, this project aims to take a mult-faceted approach to quantify the cascading ecological effects on this introduction.", 
         icon = GalapTortIcon
+      ) %&gt;%
+
+      addMarkers(
+        lng = -88.352343, 
+        lat = -0.382326, 
+        popup = "I spearheaded a 4-year comprehensive study on the natural history across five Galapagos islands, significantly contributing to the Philornis Working Group's efforts against the invasive Philornis downsi fly. This work, pivotal for understanding the ecology of Galapagos Diptera, informed P. downsi control strategies and non-target biocontrol testing. Previously, the reproductive ecology of Galapagos Diptera were largely unknown.", 
+        icon = flyIcon
+      ) %&gt;%
+
+      addMarkers(
+        lng = -120.89189, 
+        lat = 37.430757, 
+        popup = "In collaboration with the &nbsp;Los Angeles Natural History Museum (NHM) and Cal State, we examined the impact of various factors on arthropod diversity across Los Angeles, analyzing topographical, abiotic, and anthropogenic drivers. We explored the complex responses within and between six arthropod groups, revealing high regional diversity and variable spatial composition. This research underscores the nuanced relationship between urban development and biodiversity, contributing valuable insights for urban ecology and land management practices.", 
+        icon = arthropodsIcon
+      ) %&gt;%
+
+      addMarkers(
+        lng = -95.146029, 
+        lat = 48.112037, 
+        popup = "I assisted in research on Dutch elm disease, nursery techniques, and urban forestry, gaining expertise in plant propagation and tree care, from seed to adult tree. Collaborating closely with Saint Paul Parks and Recreation foresters, I collected seeds and collected data across study sites. I managed 8 acres of nursery and experimental plots.", 
+        icon = elmIcon
+      ) %&gt;%
+
+      addMarkers(
+        lng = -116.4529, 
+        lat = 33.978195, 
+        popup = "I led the WonderKids virtual afterschool program, creating and implementing a semester long STEM curriculum for K-5 students that highlights diversity in science with guest speakers and virtual lab tours. This approach aimed to inspire students through hands-on experiments and exposure to a variety of specific scientific careers, emphasizing inclusivity in science education.", 
+        icon = JEPIcon
+      ) %&gt;%
+
+      addMarkers(
+        lng = -112.123846, 
+        lat = 40.359941, 
+        popup = "For USFWS, I collected georeferenced biometric data on vulnerable Mojave desert tortoise populations across Nevada using line-distance sampling, adhering to sterile techniques. This included assessing body condition scores, checking for Mycoplasma infection, and taking morphological measurements, with strict protocols to prevent hypothermia, dehydration, and disease spread among tortoises.", 
+        icon = mojaveIcon
       ) 
    })     
 }</code></pre>
