@@ -7,6 +7,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: aboutme.qmd
+        text: About Me
       - href: projects.qmd
         text: Projects
       - href: photos.qmd
