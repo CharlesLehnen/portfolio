@@ -215,3 +215,4 @@ cython_debug/
 
 # So Github Pages deployment can't seem to handle rendering .Rmd files
 .Rmd
+*.Rmd

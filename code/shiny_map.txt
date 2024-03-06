@@ -1,7 +1,3 @@
----
-title: "Shiny Project Map"
-format: gfm
----
 
 ```{r setup, include=FALSE}
 
@@ -18,6 +14,7 @@ library(dplyr)
 # 2) add name of icon, lat/lon, and project description to documents/projects.csv
 # 3) run code chunk in code/watermark.ipynb to generate R code snippet
 # 4) run rsconnect::deployApp('code/shiny_map.Rmd') in R console
+# Hopefully this isn't tracked anymore because Github cannot render Rmds and if I delete it then shinyapps.io seems to not work
 
 ```
 
@@ -155,4 +152,5 @@ shinyApp(ui, server)
 # rsconnect::deployApp('code/shiny_map.Rmd')
 
 ```
+
 
