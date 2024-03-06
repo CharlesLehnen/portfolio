@@ -1,5 +1,4 @@
 ---
-title: "Projects"
 format: html
 editor: visual
 filters:
@@ -10,7 +9,3 @@ lightbox: auto
 # Selected Research Projects:
 
 <iframe src="https://gdwsd5-charles-lehnen.shinyapps.io/shiny_map" style="width:50%; width:50vw; width:50dvw; height:100%; height:100vh; height:100dvh;"></iframe>
-
-# [GitHub Projects](https://github.com/CharlesLehnen)
-
-# [Complete CV](https://www.charleslehnen.com/documents/Charles%20Lehnen_CV_2023.pdf)
