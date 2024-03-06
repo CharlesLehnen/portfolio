@@ -69,12 +69,12 @@ format: html
 
 # [Github Projects](https://github.com/CharlesLehnen)
 
-- [Program that allows you to make DJI Pilot 2 compatabile drone flight transects in QGIS](https://github.com/CharlesLehnen/QGIS_KML_to_DJI_Pilot_2)
+- [Program](https://github.com/CharlesLehnen/QGIS_KML_to_DJI_Pilot_2) that allows you to make DJI Pilot 2 compatabile drone flight transects in QGIS
 
-- [Machine learning workflow to generate huge datasets of training data from YouTube trail cameras](https://github.com/CharlesLehnen/YouTube_Trailcamera_Livestream_Classification_Tool)
+- [Machine learning workflow](https://github.com/CharlesLehnen/YouTube_Trailcamera_Livestream_Classification_Tool) to generate huge datasets of training data from YouTube trail cameras
 
-- [Official code and data respository](https://github.com/EcolDataSciUSC/BioSCAN_2023) for our 2024 paper [Drivers of arthropod biodiversity in an urban ecosystem](https://www.nature.com/articles/s41598-023-50675-3)
+- [Official code and data respository](https://github.com/EcolDataSciUSC/BioSCAN_2023) for our 2024 paper [*Drivers of arthropod biodiversity in an urban ecosystem*](https://www.nature.com/articles/s41598-023-50675-3)
 
-- [My suggested template for a well organized repo](https://github.com/CharlesLehnen/standard_repository_template)
+- [My suggested template](https://github.com/CharlesLehnen/standard_repository_template) for a well organized repo
 
-- [This website, which is edited in Quarto, hosted for free via Github Pages, and rendered to HTML automatically via Github deployment](https://github.com/CharlesLehnen/portfolio)
+- [This website you are on right now](https://github.com/CharlesLehnen/portfolio), which is edited in Quarto, hosted for free via Github Pages, and rendered to HTML automatically via Github deployment
