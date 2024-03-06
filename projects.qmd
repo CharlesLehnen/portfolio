@@ -2,9 +2,25 @@
 format: html
 ---
 
-# Project Map
+<style>
+  /* Default for mobile */
+  .responsive-iframe {
+    width: 100vw;
+    height: 100vw; /* to make it square */
+  }
 
-<iframe src="https://charles-lehnen.shinyapps.io/shiny_map/" style="width:50%; width:50vw; width:50dvw; height:100%; height:100vh; height:100dvh;"></iframe>
+  /* Desktops */
+  @media (min-width: 768px) {
+    .responsive-iframe {
+      width: 50vw;
+      height: 28vw; /* to maintain 16:9 aspect ratio */
+    }
+  }
+</style>
+
+# Project Map:
+
+<iframe class="responsive-iframe" src="https://charles-lehnen.shinyapps.io/shiny_map/"></iframe>
 
 # Research Projects
 
