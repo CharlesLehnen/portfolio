@@ -19,13 +19,8 @@ about:
 comments: false
 ---
 
-```{css, echo = FALSE}
-.justify {
-  text-align: justify !important
-}
-```
-
-::: {.column-page .justify}
+::: {.column-page}
+<div style="text-align: justify;">
 
 I am an ecologist driven to unravel the complexities of community dynamics and the cascading trophic effects that shape our natural world. 
 My career has led me through a variety of roles, from leading a natural history study of Galapagos Diptera across five islands, assessing potential bat habitat in the man-made abandoned mineshafts of New Mexico, to conducting transects across the Nevada desert to track the population dynamics of Mojave Desert tortoises.
@@ -44,7 +39,7 @@ I am always looking to collaborate and share ideas, feel free to reach out to me
 ## Mentorship
 Science education is an essential aspect of my work. If I am not helping to empower the next generation of scientists, I feel that my job as a scientist is not complete. If you are seeking mentorship, help, or just advice, please contact me [via email](mailto:Lehnen@usc.edu).
 
-
+</div>
 :::
 
 
