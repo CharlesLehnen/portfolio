@@ -130,7 +130,7 @@ gtag('config', 'G-TKLYP8KJK7', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project-map" id="toc-project-map" class="nav-link active" data-scroll-target="#project-map">Project Map</a></li>
+  <li><a href="#project-map" id="toc-project-map" class="nav-link active" data-scroll-target="#project-map">Project Map:</a></li>
   <li><a href="#research-projects" id="toc-research-projects" class="nav-link" data-scroll-target="#research-projects">Research Projects</a></li>
   <li><a href="#science-education-projects" id="toc-science-education-projects" class="nav-link" data-scroll-target="#science-education-projects">Science Education Projects</a></li>
   <li><a href="#github-projects" id="toc-github-projects" class="nav-link" data-scroll-target="#github-projects">Github Projects</a></li>
@@ -143,9 +143,23 @@ gtag('config', 'G-TKLYP8KJK7', { 'anonymize_ip': true});
 
 
 
+<style>
+  /* Default for mobile */
+  .responsive-iframe {
+    width: 100vw;
+  }
+
+  /* Desktops */
+  @media (min-width: 768px) {
+    .responsive-iframe {
+      width: 50vw;
+      height: 100vh;
+    }
+  }
+</style>
 <section id="project-map" class="level1">
-<h1>Project Map</h1>
-<iframe src="https://charles-lehnen.shinyapps.io/shiny_map/" style="width:50%; width:50vw; width:50dvw; height:100%; height:100vh; height:100dvh;">
+<h1>Project Map:</h1>
+<iframe class="responsive-iframe" src="https://charles-lehnen.shinyapps.io/shiny_map/">
 </iframe>
 </section>
 <section id="research-projects" class="level1">
