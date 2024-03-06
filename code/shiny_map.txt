@@ -1,6 +1,9 @@
 
 ```{r setup, include=FALSE}
 
+# to update
+install.packages("rmarkdown")
+library(rmarkdown)
 library(shiny)
 library(leaflet)
 library(dplyr)
