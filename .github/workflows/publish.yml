@@ -1,15 +1,10 @@
-on:
-  workflow_dispatch:
-  push:
-    branches: main
-
-name: Quarto Publish
-
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      R_LIBS_USER: /home/runner/work/${{ github.repository }}/R/library
     steps:
       - name: Check out repository
         uses: actions/checkout@v3
@@ -20,15 +15,18 @@ jobs:
       - name: Cache R packages
         uses: actions/cache@v2
         with:
-          path: |
-            ${{ env.R_LIBS_USER }}
-          key: ${{ runner.os }}-r-${{ hashFiles('**/*.R', '**/*.Rmd', '**/*.qmd', '.Rprofile') }}
-          restore-keys: |
-            ${{ runner.os }}-r-
+          path: ${{ env.R_LIBS_USER }}
+          key: ${{ runner.os }}-r-${{ hashFiles('**/DESCRIPTION', '**/*.R', '**/*.Rmd', '**/*.qmd') }}
+          restore-keys: ${{ runner.os }}-r-
 
       - name: Install R dependencies
         run: |
-          Rscript -e 'install.packages(c("rmarkdown", "knitr", "shiny"), repos = "http://cran.rstudio.com/")'
+          .libPaths(new = "${{ env.R_LIBS_USER }}")
+          if (!requireNamespace("rmarkdown", quietly = TRUE)) install.packages("rmarkdown", repos = "https://cloud.r-project.org/")
+          if (!requireNamespace("knitr", quietly = TRUE)) install.packages("knitr", repos = "https://cloud.r-project.org/")
+          if (!requireNamespace("shiny", quietly = TRUE)) install.packages("shiny", repos = "https://cloud.r-project.org/")
+          # Add other package installations here
+        shell: Rscript {0}
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
@@ -39,4 +37,3 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          R_LIBS_USER: ${{ github.workspace }}/R/library
