@@ -1,9 +1,3 @@
----
-title: "Interactive Map with Shiny"
-runtime: shiny
-output: html_document
----
-
 ```{r setup, include=FALSE}
 
 library(shiny)
