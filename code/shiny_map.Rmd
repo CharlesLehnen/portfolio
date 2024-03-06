@@ -1,0 +1,48 @@
+---
+title: "Interactive Map with Shiny"
+runtime: shiny
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+library(shiny)
+library(leaflet)
+
+# If running on a new device, get the secret code from https://www.shinyapps.io/admin/#/dashboard
+# rsconnect::setAccountInfo(name='gdwsd5-charles-lehnen',
+# 			  token='7BDB39CD576D8EBCCF4B5406492A3B3F',
+# 			  secret='SECRET')
+
+```
+
+```{r}
+
+ui <- fluidPage(
+  leafletOutput("map")
+)
+
+```
+
+```{r}
+
+server <- function(input, output, session) {
+  output$map <- renderLeaflet({
+    leaflet() %>%
+      addTiles() %>%  # Add default OpenStreetMap map tiles
+      setView(lng = -0.09, lat = 51.505, zoom = 13) %>%
+      addMarkers(lng = -0.09, lat = 51.5, popup = "A simple project description here.") %>%
+      addMarkers(lng = -0.1, lat = 51.515, popup = "Another project description here.")
+  })
+}
+
+```
+
+```{r}
+
+shinyApp(ui, server)
+
+# To deploy, run this in the R console
+# rsconnect::deployApp('code/shiny_map.Rmd')
+
+```
