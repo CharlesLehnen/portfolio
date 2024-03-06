@@ -19,34 +19,50 @@ ui <- fluidPage(
 ```
 
 ```{r}
-
 server <- function(input, output, session) {
-  myIcon <- makeIcon(
-    iconUrl = "../images/icons/COTO.webp",
-    iconWidth = 25, iconHeight = 41,
-    iconAnchorX = 12, iconAnchorY = 41
+  # Define custom icons
+  COTOIcon <- makeIcon(
+    iconUrl = "../images/icons/COTO.png",
+    iconWidth = 50, iconHeight = 50,
+    iconAnchorX = 25, iconAnchorY = 50  # Center the anchor point horizontally, anchor at the bottom vertically
+  )
+  
+  BlandIcon <- makeIcon(
+    iconUrl = "../images/icons/blandings.png",
+    iconWidth = 60, iconHeight = 50,
+    iconAnchorX = 25, iconAnchorY = 50
+  )
+  
+    GalapTortIcon <- makeIcon(
+    iconUrl = "../images/icons/GalapTort.png",
+    iconWidth = 75, iconHeight = 50,
+    iconAnchorX = 25, iconAnchorY = 50
   )
   
   output$map <- renderLeaflet({
     leaflet() %>%
       addProviderTiles("Esri.NatGeoWorldMap") %>%
-      setView(lng = -0.09, lat = 51.505, zoom = 13) %>%
-      addMarkers(lng = -0.09, lat = 51.5, popup = "A simple project description here.", icon = myIcon) %>%
-      addMarkers(lng = -0.1, lat = 51.515, popup = "Another project description here.", icon = myIcon)
-  })
-}
+      
+      addMarkers(
+        lng = -105.870087, 
+        lat = 34.519939, 
+        popup = "Assessing Abandoned Mines as a Protected Resource: We evaluated the biological relevance of abandoned New Mexican mines as bat roosting, flyover sites, and/or hibernacula. This also included nose swabs for Pseudogymnoascus destructans and guano collection for molecular analysis. Sites were reached through technical 4x4 off-roading, backcountry hiking, and advanced vertical ropework. We used technology including LiDAR, satellite imagery, ArcGIS, GPS, and orienteering to collect precise geospatial data. As an auxiliary aspect, we conducted pre-development avian surveys at mine closure sites utilizing bird identification and nest surveying skills.", 
+        icon = COTOIcon
+      ) %>%
 
-```
-
-```{r}
-
-server <- function(input, output, session) {
-  output$map <- renderLeaflet({
-    leaflet() %>%
-      addProviderTiles("Esri.NatGeoWorldMap") %>%
-      setView(lng = -0.09, lat = 51.505, zoom = 13) %>%
-      addMarkers(lng = -0.09, lat = 51.5, popup = "A simple project description here.") %>%
-      addMarkers(lng = -0.1, lat = 51.515, popup = "Another project description here.")
+      addMarkers(
+        lng = -94.685898, 
+        lat = 46.729553, 
+        popup = "I designed a cross-institutional volunteer internship through which I primarily conducted independent and regular ecological monitoring of potential nesting sites for the IUCN endangered Blanding's Turtles (Emydoidea blandingii) at Murphy-Hanrehan Park Reserve for the Three Rivers Park District. My work included aiding turtles to cross roads in place of wildlife corridors, behavioral and health observations, taking photographic documentation of markings and location for survey reports, having radio­telemetry transmitters removed, and egg relocation. The Blanding’s Turtle is currently a candidate for listing as an endangered or threatened by the U.S. Fish & Wildlife Service following the Endangered Species Act.", 
+        icon = BlandIcon
+      ) %>%
+      
+      addMarkers(
+        lng = -90.061142, 
+        lat = -0.809116, 
+        popup = "Will the Introduction of Española Galapagos Giant Tortoises Restore Santa Fe Island’s Ecosystem? In collaboration with Galapagos Conservancy and Iniativa Galápagos, my doctoral research investigates the ecological impacts of introducing Española Giant Tortoises (Chelonoidis hoodensis) to Santa Fe Island, where tortoises have been extinct since the mid-1800s. This project, initiated with a succesful pilot season in the summer of 2023, employs modern ecological techniques including multi-spectral drone imagery, isotope analysis from tortoise keratin, and camera traps to monitor feeding behaviors. The aim is not only to assess the restoration of Santa Fe but also to provide a model for similar conservation efforts globally, offering insights into how other species can be used to revive ecosystems. My work proudly adheres to stringent Galapagos National Park regulations to ensure the protection of wildlife and research integrity.", 
+        icon = GalapTortIcon
+      )
   })
 }
 
