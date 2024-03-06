@@ -21,7 +21,7 @@ jobs:
         run: |
           install.packages("knitr")
           install.packages("rmarkdown")
-          nstall.packages("shiny")
+          install.packages("shiny")
         shell: Rscript {0}
 
       - name: Set up Quarto
