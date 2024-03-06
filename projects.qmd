@@ -26,11 +26,13 @@ format: html
 
 #### Tortoise Terraforming: Will the Introduction of Española Galapagos Giant Tortoises Restore Santa Fe Island’s Ecosystem?
   In collaboration with [Galapagos Conservancy](https://www.galapagos.org/) and [Iniativa Galápagos](https://www.galapagos.org/projects/iniciativa-galapagos/), my doctoral research investigates the ecological impacts of introducing Española Giant Tortoises (*Chelonoidis hoodensis*) to Santa Fe Island, where tortoises have been extinct since the mid-1800s. This project, initiated with a succesful pilot season in the summer of 2023, employs modern ecological techniques including multi-spectral drone imagery, isotope analysis from tortoise keratin, and camera traps to monitor feeding behaviors. The aim is not only to assess the restoration of Santa Fe but also to provide a model for similar conservation efforts globally, offering insights into how other species can be used to revive ecosystems. My work proudly adheres to stringent Galapagos National Park regulations to ensure the protection of wildlife and research integrity. 
+  
 - ["Do Giant Tortoises Make Good Neighbors?"](https://eos-gnss.com/successes/galapagos).
 
 
 #### Distribution of Arthropod Diversity in Los Angeles
   In collaboration with the  Los Angeles Natural History Museum (NHM) and Cal State, we examined the impact of various factors on arthropod diversity across Los Angeles, analyzing topographical, abiotic, and anthropogenic drivers. We explored the complex responses within and between six arthropod groups, revealing high regional diversity and variable spatial composition. This research underscores the nuanced relationship between urban development and biodiversity, contributing valuable insights for urban ecology and land management practices.
+
 - ["Drivers of arthropod biodiversity in an urban ecosystem"](https://www.nature.com/articles/s41598-023-50675-3)
 - ["Are bugs bugging humans or the other way around? Study reveals surprises"](https://dornsife.usc.edu/stories/are-bugs-bugging-humans-or-the-other-way-around-study-reveals-surprises/)
 
@@ -41,6 +43,7 @@ format: html
 
 #### Assesing Abandoned Mines as a Protected Resource
   We evaluated the biological relevance of abandoned New Mexican mines as bat roosting, flyover sites, and/or hibernacula. This also included nose swabs for *Pseudogymnoascus destructans* and guano collection for molecular analysis. Sites were reached through technical 4x4 off-roading, backcountry hiking, and advanced vertical ropework. We used technology including LiDAR, satellite imagery, ArcGIS, GPS, and orienteering to collect precise geospatial data. As an auxiliary aspect, we conducted pre-development avian surveys at mine closure sites utilizing bird identification and nest surveying skills.
+
 - ["Where the Bats Go"](https://www.esri.com/about/newsroom/arcnews/where-the-bats-go/).
 - ["Locating Potential Bat Habitats in Abandoned Mines with GIS"](https://eos-gnss.com/successes/bat-conservation-international)
 
@@ -69,11 +72,13 @@ format: html
 
 #### JEP STEM Fellowship
   Leading the WonderKids virtual afterschool program, I designed and implemented a semester long curriculum that broadens K-5 students' understanding of STEM, emphasizing diversity in science through guest speaker sessions and virtual tours of scientists' workspaces. By showcasing scientists from various backgrounds and subfields, the program aims to inspire students to envision themselves in scientific roles while engaging students with hands-on science experiments. My global network enabled me to introduce students to a wide range of scientific careers, reinforcing the program's commitment to diversity and inclusion in science education.
+
 - [USC Wonderkids Program Videos](https://www.youtube.com/playlist?list=PLU0ue4Xv_K1udN1Nd_DUlmonps7cAh9EG)
 
 
 #### Ecology and Biodiversity Teaching Assistantship
   Contributing to developing USC's brand new "Ecology and Biodiversity" course for undergraduate juniors and seniors, I collaborated with course lecturers to design a new syllabus and created all lab materials/assignments using R and Quarto. These resources I developed are designed to teach students programming skills for quantitative ecology research, offering them hands-on experience in analyzing ecological data.
+
 - [Ecology and Biodiversity](https://charleslehnen.github.io/BISC_404_Ecology_and_Biodiversity/)
 
 
