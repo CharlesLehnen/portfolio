@@ -10,7 +10,7 @@ library(leaflet)
 
 ```
 
-```{r}
+```{r, echo = FALSE}
 
 ui <- fluidPage(
   leafletOutput("map")
@@ -18,7 +18,7 @@ ui <- fluidPage(
 
 ```
 
-```{r}
+```{r, echo = FALSE}
 
 server <- function(input, output, session) {
 
@@ -68,7 +68,7 @@ GalapTortIcon <- makeIcon(
 
 ```
 
-```{r}
+```{r, echo = FALSE}
 
 shinyApp(ui, server)
 
