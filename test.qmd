@@ -4,9 +4,9 @@ filters:
 lightbox: auto
 ---
 
-<div id="shiny-iframe">
-  <iframe src="http://gdwsd5-charles-lehnen.shinyapps.io/shiny_map" width="100%" height="600" style="border:none;"></iframe>
-</div>
+```{=html}
+<iframe src="http://gdwsd5-charles-lehnen.shinyapps.io/shiny_map" width="100%" height="600" style="border:none;"></iframe>
+```
 
 
 # Test 1
