@@ -5,7 +5,7 @@ lightbox: auto
 ---
 
 ```{=html}
-<iframe src="https://gdwsd5-charles-lehnen.shinyapps.io/shiny_map" width="100%" height="600" style="border:none;"></iframe>
+<iframe src="https://gdwsd5-charles-lehnen.shinyapps.io/shiny_map" style="width:50%; width:50vw; width:50dvw; height:100%; height:100vh; height:100dvh;"></iframe>
 ```
 
 # Test 1

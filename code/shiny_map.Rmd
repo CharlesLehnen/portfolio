@@ -22,50 +22,49 @@ ui <- fluidPage(
 
 server <- function(input, output, session) {
 
-  COTOIcon <- makeIcon(
-    iconUrl = "https://github.com/CharlesLehnen/portfolio/tree/main/images/icons/COTO.png",
-    iconWidth = 50, iconHeight = 50,
-    iconAnchorX = 25, iconAnchorY = 50
-  )
+COTOIcon <- makeIcon(
+  iconUrl = "https://raw.githubusercontent.com/CharlesLehnen/portfolio/main/images/icons/COTO.png",
+  iconWidth = 50, iconHeight = 50,
+  iconAnchorX = 25, iconAnchorY = 50
+)
 
-  blandingsIcon <- makeIcon(
-    iconUrl = "https://github.com/CharlesLehnen/portfolio/tree/main/images/icons/blandings.png",
-    iconWidth = 50, iconHeight = 50,
-    iconAnchorX = 25, iconAnchorY = 50
-  )
+blandingsIcon <- makeIcon(
+  iconUrl = "https://raw.githubusercontent.com/CharlesLehnen/portfolio/main/images/icons/blandings.png",
+  iconWidth = 50, iconHeight = 50,
+  iconAnchorX = 25, iconAnchorY = 50
+)
 
-  GalapTortIcon <- makeIcon(
-    iconUrl = "https://github.com/CharlesLehnen/portfolio/tree/main/images/icons/GalapTort.png",
-    iconWidth = 50, iconHeight = 50,
-    iconAnchorX = 25, iconAnchorY = 50
-  )
-
+GalapTortIcon <- makeIcon(
+  iconUrl = "https://raw.githubusercontent.com/CharlesLehnen/portfolio/main/images/icons/GalapTort.png",
+  iconWidth = 50, iconHeight = 50,
+  iconAnchorX = 25, iconAnchorY = 50
+)
   output$map <- renderLeaflet({
     leaflet() %>%
       addProviderTiles("Esri.NatGeoWorldMap") %>%
+      addMarkers(
+        lng = -105.870087, 
+        lat = 34.519939, 
+        popup = "We evaluated the ecological significance of abandoned mines in New Mexico as habitats for bats to recommend them for closure or federal protection. This included the collection of habitat, LiDAR imagery, and disease metrics. Field techniques involved off-roading, hiking, and ropework, with additional avian surveys at mine closures.", 
+        icon = COTOIcon
+      ) %>%
 
-addMarkers(
-  lng = -105.870087, 
-  lat = 34.519939, 
-  popup = "We evaluated the ecological significance of abandoned mines in New Mexico as habitats for bats to recommend them for closure or federal protection. This included the collection of habitat, LiDAR imagery, and disease metrics. Field techniques involved off-roading, hiking, and ropework, with additional avian surveys at mine closures.", 
-  icon = COTOIcon
-)
+      addMarkers(
+        lng = -94.685898, 
+        lat = 46.729553, 
+        popup = "I independently monitored nesting sites of the endangered Blanding's Turtles at Murphy-Hanrehan Park, assisting with road crossings, health observations, photographic documentation, and egg translocation relocation since Blanding's exhibit natal homing", 
+        icon = blandingsIcon
+      ) %>%
 
-addMarkers(
-  lng = -94.685898, 
-  lat = 46.729553, 
-  popup = "I independently monitored nesting sites of the endangered Blanding's Turtles at Murphy-Hanrehan Park, assisting with road crossings, health observations, photographic documentation, and egg translocation relocation since Blanding's exhibit natal homing", 
-  icon = blandingsIcon
-)
-
-addMarkers(
-  lng = -90.061142, 
-  lat = -0.809116, 
-  popup = "My doctoral research, in collaboration with the Galapagos Conservancy and Iniciativa Galápagos, explores the impact of introducing Española Giant Tortoises to Santa Fe Island to restore its ecosystem. Using drone imagery, isotope analysis, and camera traps, this project aims to take a mult-faceted approach to quantify the cascading ecological effects on this introduction.", 
-  icon = GalapTortIcon
-)
-  })
+      addMarkers(
+        lng = -90.061142, 
+        lat = -0.809116, 
+        popup = "My doctoral research, in collaboration with the Galapagos Conservancy and Iniciativa Galápagos, explores the impact of introducing Española Giant Tortoises to Santa Fe Island to restore its ecosystem. Using drone imagery, isotope analysis, and camera traps, this project aims to take a mult-faceted approach to quantify the cascading ecological effects on this introduction.", 
+        icon = GalapTortIcon
+      ) 
+    })     
 }
+
 
 ```
 
