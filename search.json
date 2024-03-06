@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "test.html",
-    "href": "test.html",
-    "title": "Test",
-    "section": "",
-    "text": "Test 1\n\n\nTest 2"
-  },
-  {
     "objectID": "code/watermark.html",
     "href": "code/watermark.html",
     "title": "Charles Lehnen",
@@ -37,8 +30,8 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Projects",
+    "title": "Selected Research Projects:",
     "section": "",
-    "text": "Selected Research Projects:\n\n\n\n\nGitHub Projects\n\n\nComplete CV"
+    "text": "Selected Research Projects:"
   }
 ]
