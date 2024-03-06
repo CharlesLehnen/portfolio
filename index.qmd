@@ -19,6 +19,13 @@ about:
 comments: false
 ---
 
+```{css}
+#| echo: false
+p {
+  text-align: justify
+}
+```
+
 ::: {.column-page}
 
 I am an ecologist driven to unravel the complexities of community dynamics and the cascading trophic effects that shape our natural world. 
