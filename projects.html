@@ -147,13 +147,14 @@ gtag('config', 'G-TKLYP8KJK7', { 'anonymize_ip': true});
   /* Default for mobile */
   .responsive-iframe {
     width: 100vw;
+    height: 100vw; /* to make it square */
   }
 
   /* Desktops */
   @media (min-width: 768px) {
     .responsive-iframe {
       width: 50vw;
-      height: 100vh;
+      height: 28vw; /* to maintain 16:9 aspect ratio */
     }
   }
 </style>
