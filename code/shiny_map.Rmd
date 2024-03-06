@@ -22,14 +22,14 @@ ui <- fluidPage(
 
 server <- function(input, output, session) {
   myIcon <- makeIcon(
-    iconUrl = "images/icons/COTO.png",
+    iconUrl = "../images/icons/COTO.webp",
     iconWidth = 25, iconHeight = 41,
     iconAnchorX = 12, iconAnchorY = 41
   )
   
   output$map <- renderLeaflet({
     leaflet() %>%
-      addProviderTiles("Stamen.Watercolor") %>%
+      addProviderTiles("Esri.NatGeoWorldMap") %>%
       setView(lng = -0.09, lat = 51.505, zoom = 13) %>%
       addMarkers(lng = -0.09, lat = 51.5, popup = "A simple project description here.", icon = myIcon) %>%
       addMarkers(lng = -0.1, lat = 51.515, popup = "Another project description here.", icon = myIcon)
@@ -43,7 +43,7 @@ server <- function(input, output, session) {
 server <- function(input, output, session) {
   output$map <- renderLeaflet({
     leaflet() %>%
-      addTiles() %>%  # Add default OpenStreetMap map tiles
+      addProviderTiles("Esri.NatGeoWorldMap") %>%
       setView(lng = -0.09, lat = 51.505, zoom = 13) %>%
       addMarkers(lng = -0.09, lat = 51.5, popup = "A simple project description here.") %>%
       addMarkers(lng = -0.1, lat = 51.515, popup = "Another project description here.")
@@ -51,7 +51,6 @@ server <- function(input, output, session) {
 }
 
 ```
-
 
 ```{r}
 
