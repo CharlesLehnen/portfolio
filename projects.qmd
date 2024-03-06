@@ -24,63 +24,63 @@ format: html
 
 # Research Projects
 
-### Tortoise Terraforming: Will the Introduction of Española Galapagos Giant Tortoises Restore Santa Fe Island’s Ecosystem?\
+#### Tortoise Terraforming: Will the Introduction of Española Galapagos Giant Tortoises Restore Santa Fe Island’s Ecosystem?
   In collaboration with [Galapagos Conservancy](https://www.galapagos.org/) and [Iniativa Galápagos](https://www.galapagos.org/projects/iniciativa-galapagos/), my doctoral research investigates the ecological impacts of introducing Española Giant Tortoises (*Chelonoidis hoodensis*) to Santa Fe Island, where tortoises have been extinct since the mid-1800s. This project, initiated with a succesful pilot season in the summer of 2023, employs modern ecological techniques including multi-spectral drone imagery, isotope analysis from tortoise keratin, and camera traps to monitor feeding behaviors. The aim is not only to assess the restoration of Santa Fe but also to provide a model for similar conservation efforts globally, offering insights into how other species can be used to revive ecosystems. My work proudly adheres to stringent Galapagos National Park regulations to ensure the protection of wildlife and research integrity. 
   - ["Do Giant Tortoises Make Good Neighbors?"](https://eos-gnss.com/successes/galapagos).
 
 
-### Distribution of Arthropod Diversity in Los Angeles\
+#### Distribution of Arthropod Diversity in Los Angeles
   In collaboration with the  Los Angeles Natural History Museum (NHM) and Cal State, we examined the impact of various factors on arthropod diversity across Los Angeles, analyzing topographical, abiotic, and anthropogenic drivers. We explored the complex responses within and between six arthropod groups, revealing high regional diversity and variable spatial composition. This research underscores the nuanced relationship between urban development and biodiversity, contributing valuable insights for urban ecology and land management practices.
   - ["Drivers of arthropod biodiversity in an urban ecosystem"](https://www.nature.com/articles/s41598-023-50675-3)
   - ["Are bugs bugging humans or the other way around? Study reveals surprises"](https://dornsife.usc.edu/stories/are-bugs-bugging-humans-or-the-other-way-around-study-reveals-surprises/)
 
 
-### Natural History of Galapagos Diptera\
+#### Natural History of Galapagos Diptera
   I led a 4-year natural history study across 5 of the Galapagos islands. This project was a key aspect to the goals of the international Philornis Working Group which focuses on the devastatingly invasive fly *Philornis downsi*. Understanding the ecology of Galapagos Diptera was essential in estimating impacts of *P. downsi* control prospects and acquiring endemic, dipteran pupae for non-target biocontrol testing. Prior to my study, the community ecology and rearing substrates of Galapagos Diptera had been virtually unknown. Presently, I am preparing the associated publication as first author.
 
 
-### Assesing Abandoned Mines as a Protected Resource\
+#### Assesing Abandoned Mines as a Protected Resource
   We evaluated the biological relevance of abandoned New Mexican mines as bat roosting, flyover sites, and/or hibernacula. This also included nose swabs for *Pseudogymnoascus destructans* and guano collection for molecular analysis. Sites were reached through technical 4x4 off-roading, backcountry hiking, and advanced vertical ropework. We used technology including LiDAR, satellite imagery, ArcGIS, GPS, and orienteering to collect precise geospatial data. As an auxiliary aspect, we conducted pre-development avian surveys at mine closure sites utilizing bird identification and nest surveying skills.
   - ["Where the Bats Go"](https://www.esri.com/about/newsroom/arcnews/where-the-bats-go/).
   - ["Locating Potential Bat Habitats in Abandoned Mines with GIS"](https://eos-gnss.com/successes/bat-conservation-international)
 
 
-### USFWS Population Monitoring of Mojave Desert Tortoises\
+#### USFWS Population Monitoring of Mojave Desert Tortoises
   Along line-distance sampling transects, I collected georeferenced biometric data on IUCN vulnerable Mojave desert tortoise (*Gopherus agassizii*) populations across Nevada following strict sterile field technique. Metrics included body condition scores, nasal/discharge scores to screen for Mycoplasma infection, and morphological measurements. All protocols were specifically designed to avoid complications including hypothermia, loss of fluids, and transmission of disease/parasites between tortoises.
 
 
-### Charles Darwin Foundation GeoPortal Development\
+#### Charles Darwin Foundation GeoPortal Development
   I helped develop a novel [GeoPortal](https://geodata.fcdarwin.org.ec/) which distributes Galapagos geographical data to the public and Charles Darwin Foundation (CDF) collaborating scientists. I navigated the CDF's local, WCS, WFS, WMS distributions as well as their SQL and GeoServer-based databases to gather GIS data. I used QGIS and ArcGIS to analyze this data and then created associated, robust metadata. I helped to improve the GeoPortal’s user interface by building a lightweight, intuitive directory and Wiki using HTML/CSS. The current version of the web application can be viewed at geodata-fcdgps.opendata.arcgis.com/
 
 
-### Galapagos National Park Internship\
+#### Galapagos National Park Internship
   As a Galapagos National Park intern, I aided in the rearing and husbandry of 180 semi-captive, IUCN endangered *Chelonoidis chathamensis* tortoises. Tasks consisted of the collection of eggs, monitoring of incubation, care of neonates, preparations of cohort for repatriation, four separate monitoring campaigns, and organization of volunteers. Additionally, I re-invigorated San Cristobal Island’s endemic plant breeding program. Through avid seed and seedling collection, propagation, and nursery care I was able to produce several hundred plants from 20 endemic or native species that were distributed to park and community member land.
 
 
-### Regulatory T-cell Research\
+#### Regulatory T-cell Research
   Through the University of Minnesota Medical School, I explored the potential of human regulatory T cell-based cellular therapy for Graft-Versus-Host Disease by independently designing and optimizing a novel lentiviral transduction program. The current lab group has continued to build upon my initial protocols. In my role, I also served as the manager of the experimental mouse breeding colony, supervised  four interns, and was a co-advisor to two undergraduate directed research projects. My work culminated in a publication in the journal Transplantation as co-author and a research symposium poster at the Masonic Cancer Center Research Symposium.
 
 
-### Urban Forestry of Elm Trees\
+#### Urban Forestry of Elm Trees
   I aided in the research of Dutch elm disease, nursery techniques, and forestry in harsh, urban field sites. I was trained in plant propagation, agricultural, and pruning techniques in the care of cuttings, seedlings, young trees, as well as nursery stock. I collected seed and took geospatial correlated data at numerous field sites around the state in close collaboration with Saint Paul Parks and Recreation foresters. I personally managed 8 acres of field plots and completed a self-directed research project on *Arachis hypogaea* growing conditions.
 
 
 # Science Education Projects
 
-### JEP STEM Fellowship\
+#### JEP STEM Fellowship
   Leading the WonderKids virtual afterschool program, I designed and implemented a semester long curriculum that broadens K-5 students' understanding of STEM, emphasizing diversity in science through guest speaker sessions and virtual tours of scientists' workspaces. By showcasing scientists from various backgrounds and subfields, the program aims to inspire students to envision themselves in scientific roles while engaging students with hands-on science experiments. My global network enabled me to introduce students to a wide range of scientific careers, reinforcing the program's commitment to diversity and inclusion in science education.
   - [USC Wonderkids Program Videos](https://www.youtube.com/playlist?list=PLU0ue4Xv_K1udN1Nd_DUlmonps7cAh9EG)
 
 
-### Ecology and Biodiversity Teaching Assistantship\
+#### Ecology and Biodiversity Teaching Assistantship
   Contributing to developing USC's brand new "Ecology and Biodiversity" course for undergraduate juniors and seniors, I collaborated with course lecturers to design a new syllabus and created all lab materials/assignments using R and Quarto. These resources I developed, which can be found [online](https://charleslehnen.github.io/BISC_404_Ecology_and_Biodiversity/), are designed to teach students programming skills for quantitative ecology research, offering them hands-on experience in analyzing ecological data.
 
 
-### Anthropology and General Biology Teaching Assistantship\
+#### Anthropology and General Biology Teaching Assistantship
   Serving as a teaching assistant for the uniquely structured general biology course "The Human Animal," I prepared lab lectures and organized materials, notably an extensive library of fossil casts. I introduced and developed new lab units, such as a segment on brain anatomy and functional morphology using an Anatomage Table, providing students with a hands-on approach to understanding the complex topics. This course’s unique angle on biology, through the lens of tying back every concept to humans, was particularly engaging for students from across majors taking a general biology course.
 
 
-### Human Physiology Undergraduate Teaching Assistantship\
+#### Human Physiology Undergraduate Teaching Assistantship
   As a teaching assistant, I worked in a team with three professors and fellow TAs to deliver a high quality undergraduate human physiology curriculum. We met one-on-one with weekly to review lesson plans and educational goals. I corrected coursework, answered questions for students, and was in charge of leading lab practicals. Additionally, I self-implemented and guided lecture-style study sessions for students before large exams.
 
 # [Github Projects](https://github.com/CharlesLehnen)
