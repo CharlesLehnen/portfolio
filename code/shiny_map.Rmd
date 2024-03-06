@@ -1,9 +1,3 @@
----
-title: "Project Map"
-format: html
-server: shiny
----
-
 ```{r setup, include=FALSE}
 
 library(shiny)

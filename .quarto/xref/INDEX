@@ -13,5 +13,11 @@
   },
   "projects.qmd": {
     "projects.html": "bd27236e"
+  },
+  "code/shiny_map.Rmd": {
+    "shiny_map.html": "6a86cd8e"
+  },
+  "code/shiny_map.qmd": {
+    "shiny_map.html": "213220fb"
   }
 }
