@@ -31,7 +31,7 @@ format: html
 
 
 #### Distribution of Arthropod Diversity in Los Angeles
-  In collaboration with the  Los Angeles Natural History Museum (NHM) and Cal State, we examined the impact of various factors on arthropod diversity across Los Angeles, analyzing topographical, abiotic, and anthropogenic drivers. We explored the complex responses within and between six arthropod groups, revealing high regional diversity and variable spatial composition. This research underscores the nuanced relationship between urban development and biodiversity, contributing valuable insights for urban ecology and land management practices.
+  In collaboration with the Los Angeles Natural History Museum (NHM) and Cal State, as part of USC's [Ecological Data Science Lab](https://www.edslab.org/) we examined the impact of various factors on arthropod diversity across Los Angeles, analyzing topographical, abiotic, and anthropogenic drivers. We explored the complex responses within and between six arthropod groups, revealing high regional diversity and variable spatial composition. This research underscores the nuanced relationship between urban development and biodiversity, contributing valuable insights for urban ecology and land management practices.
 
 - ["Drivers of arthropod biodiversity in an urban ecosystem"](https://www.nature.com/articles/s41598-023-50675-3)
 - ["Are bugs bugging humans or the other way around? Study reveals surprises"](https://dornsife.usc.edu/stories/are-bugs-bugging-humans-or-the-other-way-around-study-reveals-surprises/)
