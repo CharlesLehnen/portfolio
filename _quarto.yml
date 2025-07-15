@@ -19,8 +19,6 @@ website:
   page-footer:
     right: "*[This website](https://github.com/CharlesLehnen/portfolio) is built with Quarto and hosted on Github Pages. Website design adapted from [Albury Catalina](https://github.com/alburycatalina/alburycatalina.github.io).*"
   google-analytics: "G-TKLYP8KJK7"
-  resources:
-    - images/Charles_Lehnen_HEB_Graduate_Student_Webpage.pdf
     
 
 format:
