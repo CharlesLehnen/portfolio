@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.charleslehnen.com/projects.html</loc>
-    <lastmod>2026-01-11T23:14:06.281Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.charleslehnen.com/test.html</loc>
-    <lastmod>2026-01-11T23:14:06.281Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.charleslehnen.com/aboutme.html</loc>
-    <lastmod>2026-01-11T23:14:05.765Z</lastmod>
+    <loc>https://www.charleslehnen.com/photos.html</loc>
+    <lastmod>2026-08-05T21:27:00.744Z</lastmod>
   </url>
   <url>
     <loc>https://www.charleslehnen.com/index.html</loc>
-    <lastmod>2026-01-11T23:14:06.281Z</lastmod>
+    <lastmod>2026-08-05T21:27:00.744Z</lastmod>
   </url>
   <url>
     <loc>https://www.charleslehnen.com/code/watermark.html</loc>
-    <lastmod>2026-01-11T23:14:05.765Z</lastmod>
+    <lastmod>2026-08-05T21:27:00.275Z</lastmod>
   </url>
   <url>
-    <loc>https://www.charleslehnen.com/photos.html</loc>
-    <lastmod>2026-01-11T23:14:06.281Z</lastmod>
+    <loc>https://www.charleslehnen.com/aboutme.html</loc>
+    <lastmod>2026-08-05T21:27:00.274Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.charleslehnen.com/test.html</loc>
+    <lastmod>2026-08-05T21:27:00.745Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.charleslehnen.com/projects.html</loc>
+    <lastmod>2026-08-05T21:27:00.745Z</lastmod>
   </url>
 </urlset>
