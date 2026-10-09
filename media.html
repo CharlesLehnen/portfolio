@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>projects – Charles Lehnen</title>
+<title>Media – Charles Lehnen</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -114,7 +114,7 @@ gtag('config', 'G-TKLYP8KJK7', { 'anonymize_ip': true});
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -122,7 +122,7 @@ gtag('config', 'G-TKLYP8KJK7', { 'anonymize_ip': true});
 <span class="menu-text">Photo Gallery</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./media.html"> 
+    <a class="nav-link active" href="./media.html" aria-current="page"> 
 <span class="menu-text">Media</span></a>
   </li>  
   <li class="nav-item">
@@ -140,131 +140,269 @@ gtag('config', 'G-TKLYP8KJK7', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#project-map" id="toc-project-map" class="nav-link active" data-scroll-target="#project-map">Project Map:</a></li>
-  <li><a href="#research-projects" id="toc-research-projects" class="nav-link" data-scroll-target="#research-projects">Research Projects</a></li>
-  <li><a href="#science-education-projects" id="toc-science-education-projects" class="nav-link" data-scroll-target="#science-education-projects">Science Education Projects</a></li>
-  <li><a href="#github-projects" id="toc-github-projects" class="nav-link" data-scroll-target="#github-projects">Github Projects</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Media</h1>
+</div>
 
 
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 <style>
-  /* Default for mobile */
-  .responsive-iframe {
-    width: 100vw;
-    height: 100vw; /* to make it square */
-  }
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
 
-  /* Desktops */
-  @media (min-width: 768px) {
-    .responsive-iframe {
-      width: 50vw;
-      height: 28vw; /* to maintain 16:9 aspect ratio */
-    }
+@media (max-width: 992px) {
+  .media-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
+
+@media (max-width: 576px) {
+  .media-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.media-card {
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.media-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: inherit;
+}
+
+.media-card-img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #f0f4f8;
+  display: block;
+}
+
+.media-card-img-placeholder {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #e9ecef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #adb5bd;
+  font-size: 0.85rem;
+}
+
+.media-card-body {
+  padding: 1rem 1.1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.media-outlet-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #fff;
+  background: #2c3e50;
+  border-radius: 3px;
+  padding: 2px 7px;
+  margin-bottom: 0.5rem;
+}
+
+.media-card-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: #18bc9c;
+  margin-bottom: 0.5rem;
+}
+
+.media-card:hover .media-card-title {
+  text-decoration: underline;
+}
+
+.media-card-blurb {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.media-type-tag {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-radius: 3px;
+  padding: 2px 6px;
+  margin-bottom: 0.5rem;
+  margin-left: 4px;
+}
+
+.tag-video {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.tag-article {
+  background: #3498db;
+  color: #fff;
+}
+
+.tag-spotlight {
+  background: #8e44ad;
+  color: #fff;
+}
+
+.section-intro {
+  max-width: 700px;
+  color: #444;
+  font-size: 0.97rem;
+  line-height: 1.65;
+  margin-bottom: 0.5rem;
+}
 </style>
-<section id="project-map" class="level1">
-<h1>Project Map:</h1>
-<iframe class="responsive-iframe" src="https://charles-lehnen.shinyapps.io/shiny_map/">
-</iframe>
-</section>
-<section id="research-projects" class="level1">
-<h1>Research Projects</h1>
-<section id="tortoise-terraforming-will-the-introduction-of-española-galapagos-giant-tortoises-restore-santa-fe-islands-ecosystem" class="level4">
-<h4 class="anchored" data-anchor-id="tortoise-terraforming-will-the-introduction-of-española-galapagos-giant-tortoises-restore-santa-fe-islands-ecosystem">Tortoise Terraforming: Will the Introduction of Española Galapagos Giant Tortoises Restore Santa Fe Island’s Ecosystem?</h4>
-<p>In collaboration with <a href="https://www.galapagos.org/">Galapagos Conservancy</a> and <a href="https://www.galapagos.org/projects/iniciativa-galapagos/">Iniativa Galápagos</a>, my doctoral research investigates the ecological impacts of introducing Española Giant Tortoises (<em>Chelonoidis hoodensis</em>) to Santa Fe Island, where tortoises have been extinct since the mid-1800s. This project, initiated with a succesful pilot season in the summer of 2023, employs modern ecological techniques including multi-spectral drone imagery, isotope analysis from tortoise keratin, and camera traps to monitor feeding behaviors. The aim is not only to assess the restoration of Santa Fe but also to provide a model for similar conservation efforts globally, offering insights into how other species can be used to revive ecosystems. My work proudly adheres to stringent Galapagos National Park regulations to ensure the protection of wildlife and research integrity.</p>
-<ul>
-<li><a href="https://eos-gnss.com/successes/galapagos">“Do Giant Tortoises Make Good Neighbors?”</a>.</li>
-</ul>
-</section>
-<section id="distribution-of-arthropod-diversity-in-los-angeles" class="level4">
-<h4 class="anchored" data-anchor-id="distribution-of-arthropod-diversity-in-los-angeles">Distribution of Arthropod Diversity in Los Angeles</h4>
-<p>In collaboration with the Los Angeles Natural History Museum (NHM) and Cal State, as part of USC’s <a href="https://www.edslab.org/">Ecological Data Science Lab</a> we examined the impact of various factors on arthropod diversity across Los Angeles, analyzing topographical, abiotic, and anthropogenic drivers. We explored the complex responses within and between six arthropod groups, revealing high regional diversity and variable spatial composition. This research underscores the nuanced relationship between urban development and biodiversity, contributing valuable insights for urban ecology and land management practices.</p>
-<ul>
-<li><a href="https://www.nature.com/articles/s41598-023-50675-3">“Drivers of arthropod biodiversity in an urban ecosystem”</a></li>
-<li><a href="https://dornsife.usc.edu/stories/are-bugs-bugging-humans-or-the-other-way-around-study-reveals-surprises/">“Are bugs bugging humans or the other way around? Study reveals surprises”</a></li>
-</ul>
-</section>
-<section id="natural-history-of-galapagos-diptera" class="level4">
-<h4 class="anchored" data-anchor-id="natural-history-of-galapagos-diptera">Natural History of Galapagos Diptera</h4>
-<p>I led a 4-year natural history study across 5 of the Galapagos islands. This project was a key aspect to the goals of the international Philornis Working Group which focuses on the devastatingly invasive fly <em>Philornis downsi</em>. Understanding the ecology of Galapagos Diptera was essential in estimating impacts of <em>P. downsi</em> control prospects and acquiring endemic, dipteran pupae for non-target biocontrol testing. Prior to my study, the community ecology and rearing substrates of Galapagos Diptera had been virtually unknown. Presently, I am preparing the associated publication as first author.</p>
-</section>
-<section id="assesing-abandoned-mines-as-a-protected-resource" class="level4">
-<h4 class="anchored" data-anchor-id="assesing-abandoned-mines-as-a-protected-resource">Assesing Abandoned Mines as a Protected Resource</h4>
-<p>We evaluated the biological relevance of abandoned New Mexican mines as bat roosting, flyover sites, and/or hibernacula. This also included nose swabs for <em>Pseudogymnoascus destructans</em> and guano collection for molecular analysis. Sites were reached through technical 4x4 off-roading, backcountry hiking, and advanced vertical ropework. We used technology including LiDAR, satellite imagery, ArcGIS, GPS, and orienteering to collect precise geospatial data. As an auxiliary aspect, we conducted pre-development avian surveys at mine closure sites utilizing bird identification and nest surveying skills.</p>
-<ul>
-<li><a href="https://www.esri.com/about/newsroom/arcnews/where-the-bats-go/">“Where the Bats Go”</a>.</li>
-<li><a href="https://eos-gnss.com/successes/bat-conservation-international">“Locating Potential Bat Habitats in Abandoned Mines with GIS”</a></li>
-</ul>
-</section>
-<section id="usfws-population-monitoring-of-mojave-desert-tortoises" class="level4">
-<h4 class="anchored" data-anchor-id="usfws-population-monitoring-of-mojave-desert-tortoises">USFWS Population Monitoring of Mojave Desert Tortoises</h4>
-<p>Along line-distance sampling transects, I collected georeferenced biometric data on IUCN vulnerable Mojave desert tortoise (<em>Gopherus agassizii</em>) populations across Nevada following strict sterile field technique. Metrics included body condition scores, nasal/discharge scores to screen for Mycoplasma infection, and morphological measurements. All protocols were specifically designed to avoid complications including hypothermia, loss of fluids, and transmission of disease/parasites between tortoises.</p>
-</section>
-<section id="charles-darwin-foundation-geoportal-development" class="level4">
-<h4 class="anchored" data-anchor-id="charles-darwin-foundation-geoportal-development">Charles Darwin Foundation GeoPortal Development</h4>
-<p>I helped develop a novel <a href="https://geodata.fcdarwin.org.ec/">GeoPortal</a> which distributes Galapagos geographical data to the public and Charles Darwin Foundation (CDF) collaborating scientists. I navigated the CDF’s local, WCS, WFS, WMS distributions as well as their SQL and GeoServer-based databases to gather GIS data. I used QGIS and ArcGIS to analyze this data and then created associated, robust metadata. I helped to improve the GeoPortal’s user interface by building a lightweight, intuitive directory and Wiki using HTML/CSS. The current version of the web application can be viewed at geodata-fcdgps.opendata.arcgis.com/</p>
-</section>
-<section id="galapagos-national-park-internship" class="level4">
-<h4 class="anchored" data-anchor-id="galapagos-national-park-internship">Galapagos National Park Internship</h4>
-<p>As a Galapagos National Park intern, I aided in the rearing and husbandry of 180 semi-captive, IUCN endangered <em>Chelonoidis chathamensis</em> tortoises. Tasks consisted of the collection of eggs, monitoring of incubation, care of neonates, preparations of cohort for repatriation, four separate monitoring campaigns, and organization of volunteers. Additionally, I re-invigorated San Cristobal Island’s endemic plant breeding program. Through avid seed and seedling collection, propagation, and nursery care I was able to produce several hundred plants from 20 endemic or native species that were distributed to park and community member land.</p>
-</section>
-<section id="regulatory-t-cell-research" class="level4">
-<h4 class="anchored" data-anchor-id="regulatory-t-cell-research">Regulatory T-cell Research</h4>
-<p>Through the University of Minnesota Medical School, I explored the potential of human regulatory T cell-based cellular therapy for Graft-Versus-Host Disease by independently designing and optimizing a novel lentiviral transduction program. The current lab group has continued to build upon my initial protocols. In my role, I also served as the manager of the experimental mouse breeding colony, supervised four interns, and was a co-advisor to two undergraduate directed research projects. My work culminated in a publication in the journal Transplantation as co-author and a research symposium poster at the Masonic Cancer Center Research Symposium.</p>
-</section>
-<section id="urban-forestry-of-elm-trees" class="level4">
-<h4 class="anchored" data-anchor-id="urban-forestry-of-elm-trees">Urban Forestry of Elm Trees</h4>
-<p>I aided in the research of Dutch elm disease, nursery techniques, and forestry in harsh, urban field sites. I was trained in plant propagation, agricultural, and pruning techniques in the care of cuttings, seedlings, young trees, as well as nursery stock. I collected seed and took geospatial correlated data at numerous field sites around the state in close collaboration with Saint Paul Parks and Recreation foresters. I personally managed 8 acres of field plots and completed a self-directed research project on <em>Arachis hypogaea</em> growing conditions.</p>
-</section>
-</section>
-<section id="science-education-projects" class="level1">
-<h1>Science Education Projects</h1>
-<section id="jep-stem-fellowship" class="level4">
-<h4 class="anchored" data-anchor-id="jep-stem-fellowship">JEP STEM Fellowship</h4>
-<p>Leading the WonderKids virtual afterschool program, I designed and implemented a semester long curriculum that broadens K-5 students’ understanding of STEM, emphasizing diversity in science through guest speaker sessions and virtual tours of scientists’ workspaces. By showcasing scientists from various backgrounds and subfields, the program aims to inspire students to envision themselves in scientific roles while engaging students with hands-on science experiments. My global network enabled me to introduce students to a wide range of scientific careers, reinforcing the program’s commitment to diversity and inclusion in science education.</p>
-<ul>
-<li><a href="https://www.youtube.com/playlist?list=PLU0ue4Xv_K1udN1Nd_DUlmonps7cAh9EG">USC Wonderkids Program Videos</a></li>
-</ul>
-</section>
-<section id="ecology-and-biodiversity-teaching-assistantship" class="level4">
-<h4 class="anchored" data-anchor-id="ecology-and-biodiversity-teaching-assistantship">Ecology and Biodiversity Teaching Assistantship</h4>
-<p>Contributing to developing USC’s brand new “Ecology and Biodiversity” course for undergraduate juniors and seniors, I collaborated with course lecturers to design a new syllabus and created all lab materials/assignments using R and Quarto. These resources I developed are designed to teach students programming skills for quantitative ecology research, offering them hands-on experience in analyzing ecological data.</p>
-<ul>
-<li><a href="https://charleslehnen.github.io/BISC_404_Ecology_and_Biodiversity/">Ecology and Biodiversity</a></li>
-</ul>
-</section>
-<section id="anthropology-and-general-biology-teaching-assistantship" class="level4">
-<h4 class="anchored" data-anchor-id="anthropology-and-general-biology-teaching-assistantship">Anthropology and General Biology Teaching Assistantship</h4>
-<p>Serving as a teaching assistant for the uniquely structured general biology course “The Human Animal,” I prepared lab lectures and organized materials, notably an extensive library of fossil casts. I introduced and developed new lab units, such as a segment on brain anatomy and functional morphology using an Anatomage Table, providing students with a hands-on approach to understanding the complex topics. This course’s unique angle on biology, through the lens of tying back every concept to humans, was particularly engaging for students from across majors taking a general biology course.</p>
-</section>
-<section id="human-physiology-undergraduate-teaching-assistantship" class="level4">
-<h4 class="anchored" data-anchor-id="human-physiology-undergraduate-teaching-assistantship">Human Physiology Undergraduate Teaching Assistantship</h4>
-<p>As a teaching assistant, I worked in a team with three professors and fellow TAs to deliver a high quality undergraduate human physiology curriculum. We met one-on-one with weekly to review lesson plans and educational goals. I corrected coursework, answered questions for students, and was in charge of leading lab practicals. Additionally, I self-implemented and guided lecture-style study sessions for students before large exams.</p>
-</section>
-</section>
-<section id="github-projects" class="level1">
-<h1><a href="https://github.com/CharlesLehnen">Github Projects</a></h1>
-<ul>
-<li><p><a href="https://github.com/CharlesLehnen/QGIS_KML_to_DJI_Pilot_2">Program</a> that allows you to make DJI Pilot 2 compatabile drone flight transects in QGIS</p></li>
-<li><p><a href="https://github.com/CharlesLehnen/YouTube_Trailcamera_Livestream_Classification_Tool">Machine learning workflow</a> to generate huge datasets of training data from YouTube trail cameras</p></li>
-<li><p><a href="https://github.com/EcolDataSciUSC/BioSCAN_2023">Official code and data respository</a> for our 2024 paper <a href="https://www.nature.com/articles/s41598-023-50675-3"><em>Drivers of arthropod biodiversity in an urban ecosystem</em></a></p></li>
-<li><p><a href="https://github.com/CharlesLehnen/standard_repository_template">My suggested template</a> for a well organized repo</p></li>
-<li><p><a href="https://github.com/CharlesLehnen/portfolio">This website you are on right now</a>, which is edited in Quarto, hosted for free via Github Pages, and rendered to HTML automatically via Github deployment</p></li>
-</ul>
+<div class="section-intro">
+<p>Research and teaching work featured in press, institutional profiles, and industry publications — from satellite navigation agencies to science communication outlets.</p>
+</div>
+<div class="media-grid">
+<!-- 1: USC CET -->
+<a class="media-card" href="https://cet.usc.edu/what-a-great-teaching-idea-ta-edition-supporting-student-engagement/?_thumbnail_id=10130" target="_blank" rel="noopener"> <img class="media-card-img" src="images/media/cet_teaching.jpg" alt="USC CET Teaching article" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class="media-card-img-placeholder" style="display:none;">
+Image coming soon
+</div>
+<div class="media-card-body">
+<pre><code>&lt;span class="media-outlet-badge"&gt;USC CET&lt;/span&gt;&lt;span class="media-type-tag tag-article"&gt;Article&lt;/span&gt;
+&lt;div class="media-card-title"&gt;"What a Great Teaching Idea: Supporting Student Engagement"&lt;/div&gt;
+&lt;div class="media-card-blurb"&gt;Featured by USC's Center for Excellence in Teaching for developing active learning strategies and evidence-based pedagogy in ecology and biology courses, including quantitative programming curricula built from the ground up.&lt;/div&gt;</code></pre>
+</div>
+</a><p><a class="media-card" href="https://cet.usc.edu/what-a-great-teaching-idea-ta-edition-supporting-student-engagement/?_thumbnail_id=10130" target="_blank" rel="noopener"></a></p>
+<!-- 2: UMN Making of a Field Ecologist -->
+<a class="media-card" href="https://twin-cities.umn.edu/news-events/making-field-ecologist" target="_blank" rel="noopener"> <img class="media-card-img" src="images/media/umn_field_ecologist.jpg" alt="UMN Making of a Field Ecologist" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class="media-card-img-placeholder" style="display:none;">
+Image coming soon
+</div>
+<div class="media-card-body">
+<pre><code>&lt;span class="media-outlet-badge"&gt;University of Minnesota&lt;/span&gt;&lt;span class="media-type-tag tag-spotlight"&gt;Profile&lt;/span&gt;
+&lt;div class="media-card-title"&gt;"The Making of a Field Ecologist"&lt;/div&gt;
+&lt;div class="media-card-blurb"&gt;The University of Minnesota profiles how formative experiences — from bat surveys in New Mexico to a Galápagos National Park internship — set the course for doctoral research in community ecology and conservation biology.&lt;/div&gt;</code></pre>
+</div>
+</a><p><a class="media-card" href="https://twin-cities.umn.edu/news-events/making-field-ecologist" target="_blank" rel="noopener"></a></p>
+<!-- 3: Dean's Scholars Spotlight -->
+<a class="media-card" href="https://cbs.umn.edu/blog-posts/charles-lehnen" target="_blank" rel="noopener"> <img class="media-card-img" src="images/media/deans_scholars.jpg" alt="Dean's Scholars alumni spotlight" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class="media-card-img-placeholder" style="display:none;">
+Image coming soon
+</div>
+<div class="media-card-body">
+<pre><code>&lt;span class="media-outlet-badge"&gt;UMN College of Biological Sciences&lt;/span&gt;&lt;span class="media-type-tag tag-spotlight"&gt;Alumni Spotlight&lt;/span&gt;
+&lt;div class="media-card-title"&gt;"Dean's Scholars Alumni Spotlight: Charles Lehnen"&lt;/div&gt;
+&lt;div class="media-card-blurb"&gt;Recognized by the UMN College of Biological Sciences as a Dean's Scholar, this profile traces the path from undergraduate immunology research to field ecology across the Americas and the Galápagos.&lt;/div&gt;</code></pre>
+</div>
+</a><p><a class="media-card" href="https://cbs.umn.edu/blog-posts/charles-lehnen" target="_blank" rel="noopener"></a></p>
+<!-- 4: EUSPA Galileo -->
+<a class="media-card" href="https://www.euspa.europa.eu/newsroom-events/news/galileo-has-galapagos-tortoise" target="_blank" rel="noopener"> <img class="media-card-img" src="images/media/euspa_galileo.jpg" alt="EUSPA Galileo Galapagos tortoise article" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class="media-card-img-placeholder" style="display:none;">
+Image coming soon
+</div>
+<div class="media-card-body">
+<pre><code>&lt;span class="media-outlet-badge"&gt;EU Agency for the Space Programme&lt;/span&gt;&lt;span class="media-type-tag tag-article"&gt;Article&lt;/span&gt;
+&lt;div class="media-card-title"&gt;"Reviving Ecosystems: How Galileo High Accuracy Service Aids Galápagos Tortoise Reintroduction"&lt;/div&gt;
+&lt;div class="media-card-blurb"&gt;The European Union Agency for the Space Programme highlights how centimeter-accurate GNSS positioning tracks the movements of reintroduced &lt;em&gt;Chelonoidis hoodensis&lt;/em&gt; across Santa Fe Island, enabling the first fine-scale habitat use study of rewilded tortoises in the archipelago.&lt;/div&gt;</code></pre>
+</div>
+</a><p><a class="media-card" href="https://www.euspa.europa.eu/newsroom-events/news/galileo-has-galapagos-tortoise" target="_blank" rel="noopener"></a></p>
+<!-- 5: USC Dornsife Video -->
+<a class="media-card" href="https://www.youtube.com/watch?v=fTj72Qwsl0U" target="_blank" rel="noopener"> <img class="media-card-img" src="images/media/usc_tortoise_video.jpg" alt="USC Dornsife Tortoise Research video" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class="media-card-img-placeholder" style="display:none;">
+Image coming soon
+</div>
+<div class="media-card-body">
+<pre><code>&lt;span class="media-outlet-badge"&gt;USC Dornsife&lt;/span&gt;&lt;span class="media-type-tag tag-video"&gt;Video&lt;/span&gt;
+&lt;div class="media-card-title"&gt;"Tortoise Research: From USC to Galápagos"&lt;/div&gt;
+&lt;div class="media-card-blurb"&gt;A short documentary from USC Dornsife College of Letters, Arts and Sciences following fieldwork across the Galápagos, capturing the scale of the Santa Fe Island tortoise reintroduction project and the international team of researchers and partners working to restore a long-absent ecological role.&lt;/div&gt;</code></pre>
+</div>
+</a><p><a class="media-card" href="https://www.youtube.com/watch?v=fTj72Qwsl0U" target="_blank" rel="noopener"></a></p>
+<!-- 6: WonderKids -->
+<a class="media-card" href="https://tinu.be/wonderkids_youtube" target="_blank" rel="noopener"> <img class="media-card-img" src="images/media/wonderkids.jpg" alt="USC WonderKids Program Videos" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class="media-card-img-placeholder" style="display:none;">
+Image coming soon
+</div>
+<div class="media-card-body">
+<pre><code>&lt;span class="media-outlet-badge"&gt;USC JEP STEM Programs&lt;/span&gt;&lt;span class="media-type-tag tag-video"&gt;Video Series&lt;/span&gt;
+&lt;div class="media-card-title"&gt;"USC WonderKids Program Videos"&lt;/div&gt;
+&lt;div class="media-card-blurb"&gt;A video series documenting the USC JEP STEM WonderKids afterschool program — a semester-long virtual curriculum designed to expose K–5 students to diverse scientific careers through guest speakers, lab tours, and hands-on experiments from scientists across disciplines and backgrounds.&lt;/div&gt;</code></pre>
+</div>
+</a><p><a class="media-card" href="https://tinu.be/wonderkids_youtube" target="_blank" rel="noopener"></a></p>
+<!-- 7: EOS GNSS Galapagos -->
+<a class="media-card" href="https://eos-gnss.com/successes/galapagos" target="_blank" rel="noopener"> <img class="media-card-img" src="images/media/eos_galapagos.jpg" alt="EOS GNSS Galapagos tortoise article" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class="media-card-img-placeholder" style="display:none;">
+Image coming soon
+</div>
+<div class="media-card-body">
+<pre><code>&lt;span class="media-outlet-badge"&gt;EOS GNSS&lt;/span&gt;&lt;span class="media-type-tag tag-article"&gt;Article&lt;/span&gt;
+&lt;div class="media-card-title"&gt;"Do Giant Tortoises Make Good Neighbors?"&lt;/div&gt;
+&lt;div class="media-card-blurb"&gt;EOS GNSS profiles the use of high-accuracy GPS receivers to monitor newly reintroduced Española Giant Tortoises on Santa Fe Island — documenting movement ecology, habitat selection, and inter-individual variation across the first seasons of the reintroduction.&lt;/div&gt;</code></pre>
+</div>
+</a><p><a class="media-card" href="https://eos-gnss.com/successes/galapagos" target="_blank" rel="noopener"></a></p>
+<!-- 8: Esri ArcNews Bats -->
+<a class="media-card" href="https://www.esri.com/about/newsroom/arcnews/where-the-bats-go" target="_blank" rel="noopener"> <img class="media-card-img" src="images/media/esri_bats.jpg" alt="Esri ArcNews bats article" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class="media-card-img-placeholder" style="display:none;">
+Image coming soon
+</div>
+<div class="media-card-body">
+<pre><code>&lt;span class="media-outlet-badge"&gt;Esri ArcNews&lt;/span&gt;&lt;span class="media-type-tag tag-article"&gt;Article&lt;/span&gt;
+&lt;div class="media-card-title"&gt;"Where the Bats Go: New Research Uncovers Their Mysterious Journey"&lt;/div&gt;
+&lt;div class="media-card-blurb"&gt;Esri's flagship publication ArcNews features the New Mexico abandoned mines bat survey project, describing how GIS, LiDAR, and remote sensing identified potential roost sites and flyways across hundreds of kilometers of historic mining terrain in collaboration with Bat Conservation International.&lt;/div&gt;</code></pre>
+</div>
+</a><p><a class="media-card" href="https://www.esri.com/about/newsroom/arcnews/where-the-bats-go" target="_blank" rel="noopener"></a></p>
+<!-- 9: EOS GNSS Bats -->
+<a class="media-card" href="https://eos-gnss.com/successes/bat-conservation-international" target="_blank" rel="noopener"> <img class="media-card-img" src="images/media/eos_bats.jpg" alt="EOS GNSS Bat Conservation International article" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+<div class="media-card-img-placeholder" style="display:none;">
+Image coming soon
+</div>
+<div class="media-card-body">
+<pre><code>&lt;span class="media-outlet-badge"&gt;EOS GNSS&lt;/span&gt;&lt;span class="media-type-tag tag-article"&gt;Article&lt;/span&gt;
+&lt;div class="media-card-title"&gt;"Bat Conservation International: Successes"&lt;/div&gt;
+&lt;div class="media-card-blurb"&gt;EOS GNSS highlights the Bat Conservation International project in which GPS receivers were used to document bat movement patterns and assess abandoned New Mexican mine shafts as potential roosting habitat, flyover corridors, and hibernacula — work that included nose-swab screening for white-nose syndrome pathogen.&lt;/div&gt;</code></pre>
+</div>
+</a><p><a class="media-card" href="https://eos-gnss.com/successes/bat-conservation-international" target="_blank" rel="noopener"></a></p>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
