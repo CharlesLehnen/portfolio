@@ -13,6 +13,8 @@ website:
         text: Projects
       - href: photos.qmd
         text: Photo Gallery
+      - href: media.qmd
+        text: Media
       - href: documents/Charles Lehnen_CV_2025.pdf
         text: CV
   favicon: "images/favicon-32x32.png"

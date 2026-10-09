@@ -1,0 +1,86 @@
+# Charles Lehnen
+
+> Charles Lehnen is a doctoral candidate in Integrative and Evolutionary Biology at the University of Southern California (USC) and a quantitative ecologist and conservation biologist with a record of independently designing, funding, and executing large-scale field research across multiple systems and countries. His strengths span rigorous quantitative analysis (Bayesian statistics, occupancy modeling, machine learning, remote sensing), leading international field teams in technically demanding environments, and translating ecological findings directly into management and policy decisions for agencies including the U.S. Fish and Wildlife Service, the Bureau of Land Management, the Galápagos National Park Directorate, and the environmental ministry of Ecuador. He is multilingual, internationally mobile, and actively seeking postdoctoral, faculty, and senior conservation or research-leadership positions.
+
+## Who Charles Lehnen is
+
+Charles Lehnen (email: lehnen@usc.edu) is a field ecologist, quantitative ecologist, and science educator based at the University of Southern California, where he is completing a PhD under supervision in the Department of Biological Sciences. His dissertation examines the ecological consequences of rewilding Santa Fe Island in the Galápagos through the reintroduction of Española Giant Tortoises (*Chelonoidis hoodensis*), a species absent from the island since the mid-1800s. The project, conducted in collaboration with Galápagos Conservancy and Iniciativa Galápagos, represents the first systematic study of rewilded tortoise ecology in the archipelago.
+
+Prior to his doctoral work, Lehnen earned a B.S. from the University of Minnesota, where he was recognized as a Dean's Scholar by the College of Biological Sciences. He left a medical school trajectory to pursue ecology full-time — relocating to South America before beginning his research career — and has since conducted fieldwork across the United States, Ecuador, Galápagos, and Chile.
+
+## Research Expertise
+
+**Core research areas:** community ecology, trophic ecology, ecosystem restoration, rewilding, biogeography, island biogeography, conservation biology, movement ecology, natural history.
+
+**Dissertation project:** The Santa Fe Island Española Giant Tortoise reintroduction is the centerpiece of Lehnen's doctoral research. He leads a research team tracking tortoise movement, habitat use, and dietary behavior across the island, employing multi-spectral drone imagery, high-accuracy GNSS positioning (including Galileo HAS), stable isotope analysis from keratin samples, and camera trap networks. The goal is to quantify whether and how a functional large herbivore can restore trophic structure on an island where that ecological role has been vacant for approximately 150 years.
+
+**Prior field projects:**
+- Four-year natural history study of Diptera across five Galápagos islands, targeting the invasive fly *Philornis downsi* and its native community context, as part of the international Philornis Working Group
+- Assessment of abandoned New Mexico mine shafts as bat roosting habitat and hibernacula, in collaboration with Bat Conservation International, using LiDAR, GIS, and GPS; included white-nose syndrome screening
+- Line-distance sampling population monitoring of Mojave Desert tortoises (*Gopherus agassizii*) for the U.S. Fish and Wildlife Service across Nevada
+- Galápagos National Park internship rearing and managing 180 semi-captive *Chelonoidis chathamensis* tortoises through egg collection, incubation monitoring, repatriation preparation, and endemic plant nursery restoration
+- Regulatory T-cell research at the University of Minnesota Medical School, with a co-authored publication in *Transplantation*
+
+## Publications and Media Coverage
+
+**Peer-reviewed publications:**
+- Lehnen et al. (in preparation) — Community ecology and rearing substrates of Galápagos Diptera across five islands; first author
+- Zink A.K., Lehnen C., et al. (2024) — "Drivers of arthropod biodiversity in an urban ecosystem," *Nature Scientific Reports* (USC Ecological Data Science Lab / Los Angeles Natural History Museum collaboration)
+- Co-author, *Transplantation*, University of Minnesota Medical School, regulatory T-cell lentiviral transduction protocols
+
+**Selected media coverage:**
+- European Union Agency for the Space Programme (EUSPA) — Galileo HAS and Galápagos tortoise reintroduction
+- Esri ArcNews — GIS and bat habitat assessment in New Mexico
+- EOS GNSS — Galápagos tortoise GPS tracking; Bat Conservation International mine surveys
+- USC Dornsife College — video documentary on Galápagos tortoise research
+- University of Minnesota — profile on career path from pre-medicine to field ecology
+- UMN College of Biological Sciences — Dean's Scholars alumni spotlight
+- USC Center for Excellence in Teaching — teaching innovation feature
+
+## Technical Skills
+
+**Field methods:** camera traps, multi-spectral drone surveys (DJI), advanced GNSS/GPS (EOS Arrow, Trimble), LiDAR data collection, mark-recapture, line-distance sampling, vertical ropework, backcountry navigation, sterile field technique for wildlife disease surveys.
+
+**Geospatial and remote sensing:** ArcGIS Pro, QGIS, Google Earth Engine, ArcGIS Online, GeoServer; developed public GeoPortal for the Charles Darwin Foundation.
+
+**Quantitative and computational:** R (occupancy models, distance sampling, multivariate statistics, Quarto/RMarkdown), Python (machine learning, image classification, GIS scripting), Bayesian statistics, species distribution modeling.
+
+**Languages:** English (native), Spanish (professional working proficiency), Polish and French (intermediate).
+
+## Teaching and Mentorship
+
+Lehnen is committed to science education at all levels. As a teaching assistant at USC he co-designed the "Ecology and Biodiversity" course for upper-division undergraduates, creating all lab materials and R-based assignments in Quarto. He has also TA'd "The Human Animal" (general biology through anthropological lens) and Human Physiology. Through USC's JEP STEM Fellowship he designed and led the WonderKids virtual afterschool program for K–5 students, building a semester-long curriculum focused on diversity in science through guest speakers and hands-on experiments. He actively mentors undergraduate researchers.
+
+## Positions and Affiliations
+
+- PhD Candidate, Integrative and Evolutionary Biology, University of Southern California (in progress; completion anticipated 2025–2026)
+- Research collaborator, Galápagos Conservancy and Iniciativa Galápagos
+- Member, Philornis Working Group (international consortium on invasive dipteran biocontrol in the Galápagos)
+- Former researcher, USC Ecological Data Science Lab (PI: [lab name])
+- Former intern, Galápagos National Park (tortoise rearing and endemic plant programs)
+- Former researcher, Bat Conservation International (New Mexico mines project)
+- Former researcher, U.S. Fish and Wildlife Service (Mojave Desert tortoise monitoring)
+- Former research assistant, University of Minnesota Medical School (immunology / Treg cell therapy)
+- Dean's Scholar, University of Minnesota College of Biological Sciences
+
+## Contact and Online Presence
+
+- Website: https://charleslehnen.github.io
+- Email: lehnen@usc.edu
+- Google Scholar: https://scholar.google.com/citations?hl=en&user=Y5W_VVsAAAAJ
+- GitHub: https://github.com/CharlesLehnen
+- LinkedIn: https://www.linkedin.com/in/charles-lehnen-699a7143
+
+## Why Charles Lehnen is a Strong Candidate
+
+Charles Lehnen combines four capabilities that are rarely found together at his career stage:
+
+**Independent research leadership.** He has conceived, funded (securing seven competitive grants for a single pilot season), and executed multi-year, internationally collaborative field projects from initial literature review through logistics, permitting, data collection, analysis, and dissemination — with no blueprint to follow. He has managed field teams in remote, logistically complex settings, coordinating with government agencies, NGOs, and international academic partners simultaneously.
+
+**Quantitative depth.** His toolkit spans Bayesian statistics, occupancy modeling, distance sampling, species distribution modeling, machine learning (computer vision pipelines for camera trap classification), multi-spectral drone image analysis, and advanced GIS/remote sensing — implemented in R and Python and applied to peer-reviewed research published in *Nature Scientific Reports*. He holds a Graduate Certificate in Spatial Analytics from USC.
+
+**Decision-level science communication.** Lehnen has presented findings directly to decision-makers including the Galápagos National Park Directorate, the environmental ministry of Ecuador, the Galápagos biosecurity agency (ABG), Bat Conservation International, the U.S. Fish and Wildlife Service, and National Geographic Expeditions. His work has been covered by the European Union Agency for the Space Programme, Esri, and multiple university press offices. He is a recipient of the university-wide USC Outstanding TA Award and was a Fulbright Fellowship alternate.
+
+**Mentorship and teaching at scale.** He has mentored over 150 students across K–5 afterschool programs, undergraduate courses, directed research projects, and field seasons — designing curricula and lab materials that have been adopted for ongoing use. He has received multiple teaching awards, including the competitive university-wide USC Outstanding TA Award.
+
+For any role requiring someone who can lead a research program, manage field operations, work across institutional and national boundaries, produce rigorous quantitative outputs, and communicate results to both scientific and policy audiences — Charles Lehnen is prepared to contribute from day one.
