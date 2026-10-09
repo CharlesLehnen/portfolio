@@ -1,0 +1,244 @@
+---
+title: "Media"
+format: html
+---
+
+<style>
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 992px) {
+  .media-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .media-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.media-card {
+  background: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.media-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: inherit;
+}
+
+.media-card-img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #f0f4f8;
+  display: block;
+}
+
+.media-card-img-placeholder {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #e9ecef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #adb5bd;
+  font-size: 0.85rem;
+}
+
+.media-card-body {
+  padding: 1rem 1.1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.media-outlet-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #fff;
+  background: #2c3e50;
+  border-radius: 3px;
+  padding: 2px 7px;
+  margin-bottom: 0.5rem;
+}
+
+.media-card-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: #18bc9c;
+  margin-bottom: 0.5rem;
+}
+
+.media-card:hover .media-card-title {
+  text-decoration: underline;
+}
+
+.media-card-blurb {
+  font-size: 0.85rem;
+  color: #555;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.media-type-tag {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-radius: 3px;
+  padding: 2px 6px;
+  margin-bottom: 0.5rem;
+  margin-left: 4px;
+}
+
+.tag-video {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.tag-article {
+  background: #3498db;
+  color: #fff;
+}
+
+.tag-spotlight {
+  background: #8e44ad;
+  color: #fff;
+}
+
+.section-intro {
+  max-width: 700px;
+  color: #444;
+  font-size: 0.97rem;
+  line-height: 1.65;
+  margin-bottom: 0.5rem;
+}
+</style>
+
+<div class="section-intro">
+Research and teaching work featured in press, institutional profiles, and industry publications — from satellite navigation agencies to science communication outlets.
+</div>
+
+<div class="media-grid">
+
+<!-- 1: USC CET -->
+<a class="media-card" href="https://cet.usc.edu/what-a-great-teaching-idea-ta-edition-supporting-student-engagement/?_thumbnail_id=10130" target="_blank" rel="noopener">
+  <img class="media-card-img" src="images/media/cet_teaching.jpg" alt="USC CET Teaching article" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+  <div class="media-card-img-placeholder" style="display:none;">Image coming soon</div>
+  <div class="media-card-body">
+    <span class="media-outlet-badge">USC CET</span><span class="media-type-tag tag-article">Article</span>
+    <div class="media-card-title">"What a Great Teaching Idea: Supporting Student Engagement"</div>
+    <div class="media-card-blurb">Featured by USC's Center for Excellence in Teaching for developing active learning strategies and evidence-based pedagogy in ecology and biology courses, including quantitative programming curricula built from the ground up.</div>
+  </div>
+</a>
+
+<!-- 2: UMN Making of a Field Ecologist -->
+<a class="media-card" href="https://twin-cities.umn.edu/news-events/making-field-ecologist" target="_blank" rel="noopener">
+  <img class="media-card-img" src="images/media/umn_field_ecologist.jpg" alt="UMN Making of a Field Ecologist" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+  <div class="media-card-img-placeholder" style="display:none;">Image coming soon</div>
+  <div class="media-card-body">
+    <span class="media-outlet-badge">University of Minnesota</span><span class="media-type-tag tag-spotlight">Profile</span>
+    <div class="media-card-title">"The Making of a Field Ecologist"</div>
+    <div class="media-card-blurb">The University of Minnesota profiles how formative experiences — from bat surveys in New Mexico to a Galápagos National Park internship — set the course for doctoral research in community ecology and conservation biology.</div>
+  </div>
+</a>
+
+<!-- 3: Dean's Scholars Spotlight -->
+<a class="media-card" href="https://cbs.umn.edu/blog-posts/charles-lehnen" target="_blank" rel="noopener">
+  <img class="media-card-img" src="images/media/deans_scholars.jpg" alt="Dean's Scholars alumni spotlight" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+  <div class="media-card-img-placeholder" style="display:none;">Image coming soon</div>
+  <div class="media-card-body">
+    <span class="media-outlet-badge">UMN College of Biological Sciences</span><span class="media-type-tag tag-spotlight">Alumni Spotlight</span>
+    <div class="media-card-title">"Dean's Scholars Alumni Spotlight: Charles Lehnen"</div>
+    <div class="media-card-blurb">Recognized by the UMN College of Biological Sciences as a Dean's Scholar, this profile traces the path from undergraduate immunology research to field ecology across the Americas and the Galápagos.</div>
+  </div>
+</a>
+
+<!-- 4: EUSPA Galileo -->
+<a class="media-card" href="https://www.euspa.europa.eu/newsroom-events/news/galileo-has-galapagos-tortoise" target="_blank" rel="noopener">
+  <img class="media-card-img" src="images/media/euspa_galileo.jpg" alt="EUSPA Galileo Galapagos tortoise article" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+  <div class="media-card-img-placeholder" style="display:none;">Image coming soon</div>
+  <div class="media-card-body">
+    <span class="media-outlet-badge">EU Agency for the Space Programme</span><span class="media-type-tag tag-article">Article</span>
+    <div class="media-card-title">"Reviving Ecosystems: How Galileo High Accuracy Service Aids Galápagos Tortoise Reintroduction"</div>
+    <div class="media-card-blurb">The European Union Agency for the Space Programme highlights how centimeter-accurate GNSS positioning tracks the movements of reintroduced <em>Chelonoidis hoodensis</em> across Santa Fe Island, enabling the first fine-scale habitat use study of rewilded tortoises in the archipelago.</div>
+  </div>
+</a>
+
+<!-- 5: USC Dornsife Video -->
+<a class="media-card" href="https://www.youtube.com/watch?v=fTj72Qwsl0U" target="_blank" rel="noopener">
+  <img class="media-card-img" src="images/media/usc_tortoise_video.jpg" alt="USC Dornsife Tortoise Research video" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+  <div class="media-card-img-placeholder" style="display:none;">Image coming soon</div>
+  <div class="media-card-body">
+    <span class="media-outlet-badge">USC Dornsife</span><span class="media-type-tag tag-video">Video</span>
+    <div class="media-card-title">"Tortoise Research: From USC to Galápagos"</div>
+    <div class="media-card-blurb">A short documentary from USC Dornsife College of Letters, Arts and Sciences following fieldwork across the Galápagos, capturing the scale of the Santa Fe Island tortoise reintroduction project and the international team of researchers and partners working to restore a long-absent ecological role.</div>
+  </div>
+</a>
+
+<!-- 6: WonderKids -->
+<a class="media-card" href="https://tinu.be/wonderkids_youtube" target="_blank" rel="noopener">
+  <img class="media-card-img" src="images/media/wonderkids.jpg" alt="USC WonderKids Program Videos" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+  <div class="media-card-img-placeholder" style="display:none;">Image coming soon</div>
+  <div class="media-card-body">
+    <span class="media-outlet-badge">USC JEP STEM Programs</span><span class="media-type-tag tag-video">Video Series</span>
+    <div class="media-card-title">"USC WonderKids Program Videos"</div>
+    <div class="media-card-blurb">A video series documenting the USC JEP STEM WonderKids afterschool program — a semester-long virtual curriculum designed to expose K–5 students to diverse scientific careers through guest speakers, lab tours, and hands-on experiments from scientists across disciplines and backgrounds.</div>
+  </div>
+</a>
+
+<!-- 7: EOS GNSS Galapagos -->
+<a class="media-card" href="https://eos-gnss.com/successes/galapagos" target="_blank" rel="noopener">
+  <img class="media-card-img" src="images/media/eos_galapagos.jpg" alt="EOS GNSS Galapagos tortoise article" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+  <div class="media-card-img-placeholder" style="display:none;">Image coming soon</div>
+  <div class="media-card-body">
+    <span class="media-outlet-badge">EOS GNSS</span><span class="media-type-tag tag-article">Article</span>
+    <div class="media-card-title">"Do Giant Tortoises Make Good Neighbors?"</div>
+    <div class="media-card-blurb">EOS GNSS profiles the use of high-accuracy GPS receivers to monitor newly reintroduced Española Giant Tortoises on Santa Fe Island — documenting movement ecology, habitat selection, and inter-individual variation across the first seasons of the reintroduction.</div>
+  </div>
+</a>
+
+<!-- 8: Esri ArcNews Bats -->
+<a class="media-card" href="https://www.esri.com/about/newsroom/arcnews/where-the-bats-go" target="_blank" rel="noopener">
+  <img class="media-card-img" src="images/media/esri_bats.jpg" alt="Esri ArcNews bats article" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+  <div class="media-card-img-placeholder" style="display:none;">Image coming soon</div>
+  <div class="media-card-body">
+    <span class="media-outlet-badge">Esri ArcNews</span><span class="media-type-tag tag-article">Article</span>
+    <div class="media-card-title">"Where the Bats Go: New Research Uncovers Their Mysterious Journey"</div>
+    <div class="media-card-blurb">Esri's flagship publication ArcNews features the New Mexico abandoned mines bat survey project, describing how GIS, LiDAR, and remote sensing identified potential roost sites and flyways across hundreds of kilometers of historic mining terrain in collaboration with Bat Conservation International.</div>
+  </div>
+</a>
+
+<!-- 9: EOS GNSS Bats -->
+<a class="media-card" href="https://eos-gnss.com/successes/bat-conservation-international" target="_blank" rel="noopener">
+  <img class="media-card-img" src="images/media/eos_bats.jpg" alt="EOS GNSS Bat Conservation International article" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+  <div class="media-card-img-placeholder" style="display:none;">Image coming soon</div>
+  <div class="media-card-body">
+    <span class="media-outlet-badge">EOS GNSS</span><span class="media-type-tag tag-article">Article</span>
+    <div class="media-card-title">"Bat Conservation International: Successes"</div>
+    <div class="media-card-blurb">EOS GNSS highlights the Bat Conservation International project in which GPS receivers were used to document bat movement patterns and assess abandoned New Mexican mine shafts as potential roosting habitat, flyover corridors, and hibernacula — work that included nose-swab screening for white-nose syndrome pathogen.</div>
+  </div>
+</a>
+
+</div>
