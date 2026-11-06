@@ -3,6 +3,13 @@ title: "Charles Lehnen"
 image: images/profile.jpg
 about:
   template: trestles
+format:
+  html:
+    include-in-header:
+      - text: |
+          <link rel="prefetch" href="photos.html">
+          <link rel="preconnect" href="https://charles-lehnen.shinyapps.io">
+          <link rel="dns-prefetch" href="https://charles-lehnen.shinyapps.io">
   links:
     - text: LinkedIn
       icon: linkedin

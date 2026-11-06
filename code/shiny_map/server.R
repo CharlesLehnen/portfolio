@@ -54,7 +54,7 @@ server <- function(input, output, session) {
   )
   output$map <- renderLeaflet({
     leaflet() %>%
-      addProviderTiles("CartoDB.DarkMatterNoLabels") %>%
+      addProviderTiles("Esri.WorldPhysical") %>%
       addMarkers(
         lng = -107.303802, 
         lat = 33.12007, 
