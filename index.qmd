@@ -1,10 +1,23 @@
 ---
 title: "Charles Lehnen"
-description: "PhD candidate at USC studying the ecological effects of rewilding Santa Fe Island in the Galápagos through Española Giant Tortoise reintroduction. Field ecologist, quantitative ecologist, science educator."
+description: "PhD candidate at USC studying the ecological effects of rewilding Santa Fe Island in the Galápagos through Española Giant Tortoise reintroduction. Field ecologist, quantitative ecologist, STEM educator."
 image: images/profile.jpg
 image-alt: "Charles Lehnen, field ecologist and PhD candidate at USC"
 about:
   template: trestles
+  links:
+    - text: LinkedIn
+      icon: linkedin
+      url: "https://www.linkedin.com/in/charles-lehnen-699a7143"
+    - text: GitHub
+      icon: github
+      url: "https://github.com/CharlesLehnen"
+    - text: Google Scholar
+      icon: journal
+      url: "https://scholar.google.com/citations?hl=en&user=Y5W_VVsAAAAJ"
+    - text: Email
+      icon: envelope
+      url: "mailto:Lehnen@usc.edu"
 format:
   html:
     include-in-header:
@@ -47,44 +60,25 @@ format:
             }
           }
           </script>
-  links:
-    - text: LinkedIn
-      icon: linkedin
-      url: "https://www.linkedin.com/in/charles-lehnen-699a7143"
-    - text: GitHub
-      icon: github
-      url: "https://github.com/CharlesLehnen"
-    - text: Google Scholar
-      icon: journal
-      url: "https://scholar.google.com/citations?hl=en&user=Y5W_VVsAAAAJ"
-    - text: Email
-      icon: envelope
-      url: "mailto:Lehnen@usc.edu"
 comments: false
 ---
 
-::: {.column-page}
-<div style="text-align: justify;">
+:::: column-page
+::: {style="text-align: justify;"}
+I am an ecologist driven to unravel the complexities of community dynamics and the cascading trophic effects that shape our natural world. My career has led me through a variety of roles, from leading a natural history study of Galapagos Diptera across five islands, assessing potential bat habitat in the man-made abandoned mineshafts of New Mexico, to conducting transects across the Nevada desert to track the population dynamics of Mojave Desert tortoises.
 
-I am an ecologist driven to unravel the complexities of community dynamics and the cascading trophic effects that shape our natural world. 
-My career has led me through a variety of roles, from leading a natural history study of Galapagos Diptera across five islands, assessing potential bat habitat in the man-made abandoned mineshafts of New Mexico, to conducting transects across the Nevada desert to track the population dynamics of Mojave Desert tortoises.
-
-Along the way, I have honed my skills in the field working with cutting edge technologies including mutli-spectral drones, advanced GNSS systems, LiDAR, camera traps, and remote sensing. 
-In the classroom, through TAships I have focused on teaching quantitive skills including Python, R, occupancy models, and bayesian statistics. 
+Along the way, I have honed my skills in the field working with cutting edge technologies including mutli-spectral drones, advanced GNSS systems, LiDAR, camera traps, and remote sensing. In the classroom, through TAships I have focused on teaching quantitive skills including Python, R, occupancy models, and bayesian statistics.
 
 Currently, as a PhD candidate at the University of Southern California, I am leading a team to research the effects of rewilding Santa Fe Island in the Galapagos through the introduction of Española Giant Tortoises (*Chelonoidis hoodensis*).
 
-**Interests:** Biogeography, Trophic Ecology, Ecological Restoration, Science Communication, Quantative Ecology 
-
+**Interests:** Biogeography, Trophic Ecology, Ecological Restoration, Science Communication, Quantative Ecology
 
 ## Inquiries
+
 I am always looking to collaborate and share ideas, feel free to reach out to me [via email](mailto:lehnen@usc.edu).
 
 ## Mentorship
+
 Science education is an essential aspect of my work. If I am not helping to empower the next generation of scientists, I feel that my job as a scientist is not complete. If you are seeking mentorship, help, or just advice, please contact me [via email](mailto:Lehnen@usc.edu).
-
-</div>
 :::
-
-
-
+::::
