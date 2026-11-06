@@ -1,6 +1,8 @@
 ---
 title: "Charles Lehnen"
+description: "PhD candidate at USC studying the ecological effects of rewilding Santa Fe Island in the Galápagos through Española Giant Tortoise reintroduction. Field ecologist, quantitative ecologist, science educator."
 image: images/profile.jpg
+image-alt: "Charles Lehnen, field ecologist and PhD candidate at USC"
 about:
   template: trestles
 format:
@@ -10,6 +12,41 @@ format:
           <link rel="prefetch" href="photos.html">
           <link rel="preconnect" href="https://charles-lehnen.shinyapps.io">
           <link rel="dns-prefetch" href="https://charles-lehnen.shinyapps.io">
+          <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "ProfilePage",
+            "mainEntity": {
+              "@type": "Person",
+              "name": "Charles Lehnen",
+              "url": "https://www.charleslehnen.com",
+              "email": "lehnen@usc.edu",
+              "image": "https://www.charleslehnen.com/images/profile.jpg",
+              "jobTitle": "Doctoral Candidate, Integrative and Evolutionary Biology",
+              "affiliation": {
+                "@type": "CollegeOrUniversity",
+                "name": "University of Southern California",
+                "url": "https://www.usc.edu"
+              },
+              "alumniOf": {
+                "@type": "CollegeOrUniversity",
+                "name": "University of Minnesota"
+              },
+              "description": "Field ecologist and quantitative ecologist researching rewilded Española Giant Tortoises on Santa Fe Island, Galápagos. Doctoral candidate at USC specializing in trophic ecology, rewilding, and ecosystem restoration.",
+              "knowsAbout": [
+                "rewilding", "trophic ecology", "ecosystem restoration",
+                "occupancy modeling", "Bayesian statistics", "drone remote sensing",
+                "stable isotope analysis", "camera traps",
+                "Galápagos Giant Tortoises", "island biogeography"
+              ],
+              "sameAs": [
+                "https://scholar.google.com/citations?hl=en&user=Y5W_VVsAAAAJ",
+                "https://github.com/CharlesLehnen",
+                "https://www.linkedin.com/in/charles-lehnen-699a7143"
+              ]
+            }
+          }
+          </script>
   links:
     - text: LinkedIn
       icon: linkedin

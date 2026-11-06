@@ -1,4 +1,6 @@
 ---
+title: "About Me — Charles Lehnen"
+description: "From pre-med student to field ecologist: Charles Lehnen's path through ecology, with fieldwork across the United States, Ecuador, and the Galápagos."
 format: html
 ---
 
@@ -22,4 +24,4 @@ Like many other biology students, I was actually pre-med in college. After gradu
 </ul>
 
 
-![](images/gulliver_cliff.jpg)
+![Charles Lehnen in a mountain landscape](images/gulliver_cliff.jpg)

@@ -3,6 +3,15 @@ project:
 
 website:
   title: "Charles Lehnen"
+  site-url: "https://www.charleslehnen.com"
+  description: "Academic portfolio of Charles Lehnen — PhD candidate in Integrative and Evolutionary Biology at USC researching rewilding, Galápagos Giant Tortoises, and trophic ecology."
+  image: "images/profile.jpg"
+  open-graph:
+    site-name: "Charles Lehnen"
+    locale: "en_US"
+  twitter-card:
+    card-style: summary_large_image
+  sitemap: true
   navbar:
     left:
       - href: index.qmd

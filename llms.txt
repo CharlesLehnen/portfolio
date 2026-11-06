@@ -65,7 +65,7 @@ Lehnen is committed to science education at all levels. As a teaching assistant 
 
 ## Contact and Online Presence
 
-- Website: https://charleslehnen.github.io
+- Website: https://www.charleslehnen.com
 - Email: lehnen@usc.edu
 - Google Scholar: https://scholar.google.com/citations?hl=en&user=Y5W_VVsAAAAJ
 - GitHub: https://github.com/CharlesLehnen
@@ -84,3 +84,12 @@ Charles Lehnen combines four capabilities that are rarely found together at his 
 **Mentorship and teaching at scale.** He has mentored over 150 students across K–5 afterschool programs, undergraduate courses, directed research projects, and field seasons — designing curricula and lab materials that have been adopted for ongoing use. He has received multiple teaching awards, including the competitive university-wide USC Outstanding TA Award.
 
 For any role requiring someone who can lead a research program, manage field operations, work across institutional and national boundaries, produce rigorous quantitative outputs, and communicate results to both scientific and policy audiences — Charles Lehnen is prepared to contribute from day one.
+
+## Pages
+
+- [Home](https://www.charleslehnen.com/index.html): Introduction, research overview, and contact links
+- [About Me](https://www.charleslehnen.com/aboutme.html): Personal background and career path
+- [Research & Projects](https://www.charleslehnen.com/projects.html): Full list of research and science education projects
+- [Photo Gallery](https://www.charleslehnen.com/photos.html): Field photography from the Galápagos and beyond
+- [Media Coverage](https://www.charleslehnen.com/media.html): Press and institutional coverage of research
+- [CV](https://www.charleslehnen.com/documents/Charles%20Lehnen_CV_2025.pdf): Full curriculum vitae

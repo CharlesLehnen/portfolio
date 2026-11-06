@@ -1,5 +1,7 @@
 ---
-title: "Media"
+title: "Media Coverage — Charles Lehnen"
+description: "Press coverage of Charles Lehnen's ecology research by EUSPA, Esri ArcNews, EOS GNSS, USC Dornsife, and the University of Minnesota — on Galápagos tortoise rewilding, bat habitat assessment, and urban ecology."
+image: "images/media/euspa_galileo.jpg"
 format: html
 ---
 

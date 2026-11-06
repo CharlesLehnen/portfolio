@@ -1,4 +1,6 @@
 ---
+title: "Research Projects — Charles Lehnen"
+description: "Research projects spanning Española Giant Tortoise rewilding in the Galápagos, urban arthropod biodiversity in Los Angeles, Mojave Desert tortoise population monitoring, bat habitat assessment, and science education at USC."
 format: html
 ---
 
